@@ -110,19 +110,19 @@ const { title, price, images, stock, slug } = Astro.props;
 
         <div class="flex items-center justify-between mt-2">
             <span class="text-xl font-bold text-primary">
-                ${price.toLocaleString("en-US")}
+                L{price.toLocaleString("en-US")}
             </span>
             <div class="flex items-center gap-1 text-xs font-medium">
                 {
                     stock > 0 ? (
                         <span class="text-success flex items-center gap-1">
                             <span class="w-2 h-2 rounded-full bg-success" />
-                            In Stock
+                            Disponibles ({stock})
                         </span>
                     ) : (
                         <span class="text-error flex items-center gap-1">
                             <span class="w-2 h-2 rounded-full bg-error" />
-                            Out of Stock
+                            Agotados
                         </span>
                     )
                 }
@@ -134,8 +134,8 @@ const { title, price, images, stock, slug } = Astro.props;
 <script>
     import Swiper from "swiper";
     import { Pagination, Navigation } from "swiper/modules";
-    import "swiper/css";
-    import "swiper/css/pagination";
+    /* import "swiper/css";
+    import "swiper/css/pagination"; */
     import { addToCart } from "../../store/cartStore";
     import {
         toggleFavorite,

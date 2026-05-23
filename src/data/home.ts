@@ -1,23 +1,23 @@
 export const categories = [
     {
-        name: "Computers",
-        image: "https://images.unsplash.com/photo-1547082299-de196ea013d6?q=80&w=2000&auto=format&fit=crop",
-        path: "/category/computers",
+        name: "Ropa de Hombre",
+        image: "src/assets/categoria-hombre.png",
+        path: "/category/ropa de hombre",
     },
     {
-        name: "Phones",
-        image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?q=80&w=2000&auto=format&fit=crop",
-        path: "/category/phones",
+        name: "Ropa de Mujer",
+        image: "src/assets/categoria-mujer.png",        
+        path: "/category/ropa de mujer",
     },
     {
-        name: "Audio",
-        image: "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?q=80&w=2000&auto=format&fit=crop",
-        path: "/category/audio",
+        name: "Calzado",
+        image: "src/assets/categoria-calzado.png",
+        path: "/category/calzado",
     },
     {
-        name: "Accessories",
-        image: "https://i.ytimg.com/vi/6nF-4i3RrG0/hq720.jpg?sqp=-oaymwEXCK4FEIIDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLA1Ir1cXQna8UT0zPxI62l1ZlvvEQ",
-        path: "/category/accessories",
+        name: "Accesorios",
+        image: "src/assets/categoria-accesorios.png",
+        path: "/category/accesorios",
     },
 ];
 

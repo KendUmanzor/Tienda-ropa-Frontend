@@ -17,26 +17,27 @@ export interface Product {
 export const products: Product[] = [
     {
         id: "1",
-        name: "MacBook Pro 16 M3 Max",
-        title: "MacBook Pro 16 M3 Max",
-        price: 3499,
-        description: "The most powerful MacBook Pro ever. With the lightning-fast M3 Max chip, advanced thermal architecture, and a stunning Liquid Retina XDR display, it's designed for those who demand the absolute best in performance and portability.",
-        category: "Computers",
-        subcategory: "notebooks",
-        stock: 5,
+        name: "Jersey 勝利傑 (Shōri Ketsu) - Samurai Edition",
+        title: "Jersey 勝利傑 (Shōri Ketsu) - Samurai Edition",
+        price: 1450,
+        description: "Un jersey tipo polo de alto rendimiento que fusiona el estilo de los uniformes de fútbol retro con la cultura japonesa. Presenta un diseño dividido en tonos azul medianoche y carmesí, decorado con llamas sutiles y bordados de alta calidad.",
+        category: "Ropa de Hombre",
+        subcategory: "camisas",
+        stock: 25,
         images: [
-            "https://images.unsplash.com/photo-1629131726692-1accd0c53ce0?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+            "../src/assets/shori-ketsu-1.jpg",
+            "../src/assets/shori-ketsu-2.jpg",
+            "../src/assets/shori-ketsu-3.jpg",
+            "../src/assets/shori-ketsu-4.jpg"
         ],
-        slug: "macbook-pro-16-m3-max",
+        slug: "jersey-shōri-ketsu-samurai-edition",
         badge: "Premium",
-        discount: 5,
+        discount: 15,
         specs: [
-            { label: "Processor", value: "Apple M3 Max" },
-            { label: "Memory", value: "32GB Unified" },
-            { label: "Storage", value: "1TB SSD" },
-            { label: "Display", value: "16.2-inch XDR" }
+            { label: "Material", value: "100% Poliéster transpirable con tecnología de secado rápido." },
+            { label: "Corte", value: "Oversized fit para mayor comodidad y estilo urbano." },
+            { label: "Cuello", value: "Estilo polo acanalado con detalles en contraste tricolor." },
+            { label: "Costuras", value: "Reforzadas en hombros y mangas para mayor durabilidad." }
         ]
     },
     {
@@ -44,8 +45,8 @@ export const products: Product[] = [
         name: "Sony WH-1000XM5",
         title: "Sony WH-1000XM5",
         price: 399,
-        description: "Industry-leading noise cancellation, exceptional sound quality, and crystal-clear hands-free calling. The WH-1000XM5 headphones rewrite the rules for distraction-free listening and ultra-clear call quality.",
-        category: "Audio",
+        description: "Industry-leading noise cancellation, exceptional sound quality, and crystal-clear hands-free calling. The WH-1000XM5 headRopa de Mujer rewrite the rules for distraction-free listening and ultra-clear call quality.",
+        category: "Calzado",
         stock: 12,
         images: [
             "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=800&q=80",
@@ -68,7 +69,7 @@ export const products: Product[] = [
         title: "iPhone 15 Pro Max",
         price: 1199,
         description: "Forged in titanium. Featuring the groundbreaking A17 Pro chip, a customizable Action button, and the most powerful iPhone camera system ever. Experience the next level of mobile technology.",
-        category: "Phones",
+        category: "Ropa de Mujer",
         subcategory: "iphone",
         stock: 0,
         images: [
@@ -91,7 +92,7 @@ export const products: Product[] = [
         title: "Logitech MX Master 3S",
         price: 99,
         description: "An icon, remastered. Meet MX Master 3S – an iconic mouse remastered for ultimate tactility, performance, and flow. Feel every moment of your workflow with even more precision, tactility, and performance.",
-        category: "Accessories",
+        category: "Accesorios",
         stock: 50,
         images: [
             "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
@@ -109,85 +110,99 @@ export const products: Product[] = [
     },
     {
         id: "5",
-        name: "iPad Pro M2",
-        title: "iPad Pro M2",
-        price: 799,
-        description: "Astonishing performance. Incredibly advanced displays. Superfast wireless connectivity. Next-level Apple Pencil features. Powerful new features in iPadOS. The ultimate iPad experience.",
-        category: "Computers",
-        subcategory: "notebooks",
-        stock: 15,
+        name: "Polo de Malla 'Halftime Worldwide' - Edición Vintage Sport",
+        title: "Polo de Malla 'Halftime Worldwide' - Edición Vintage Sport",
+        price: 1280,
+        description: "Un polo de estética deportiva retro con un diseño de rayas horizontales en tonos tierra (ocre y verde oliva). Destaca por su tejido de malla transpirable (mesh), ideal para climas cálidos, y un cierre de cremallera en el cuello que le da un toque moderno y versátil.",
+        category: "Ropa de Hombre",
+        subcategory: "camisas",
+        stock: 18,
         images: [
-            "https://i.guim.co.uk/img/media/23b25aa93e573bc0b016c0e6e9233bc51da92c54/0_240_5261_3156/master/5261.jpg?width=1200&quality=85&auto=format&fit=max&s=5f0115e164644ebfdbc3c86ee86c163b",
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQonjUvhTVx33qjjjCrRp68MDRAlt_1uqA9YA&s"
+            "../src/assets/halftime-1.jpg",
+            "../src/assets/halftime-2.jpg",
+            "../src/assets/halftime-3.jpg",
+            "../src/assets/halftime-4.jpg",
         ],
-        slug: "ipad-pro-m2",
-        badge: "Pro",
+        slug: "polo-de-malla-halftime-worldwide-edicion-vintage-sport",
+        badge: "Nuevo",
         discount: 0,
         specs: [
-            { label: "Chip", value: "Apple M2" },
-            { label: "Display", value: "Liquid Retina" },
-            { label: "Camera", value: "12MP Ultra Wide" },
-            { label: "Storage", value: "256GB" }
+            { label: "Material", value: "Tejido de malla técnica perforada de alta ventilación" },
+            { label: "Corte", value: "Boxy Fit (ancho y ligeramente corto) con hombros caídos." },
+            { label: "Cuello", value: "Cuello de polo clásico con cierre de media cremallera metálica." },
+            { label: "Textura", value: "Tacto suave pero estructurado, diseñado para mantener la forma." }
         ]
     },
     {
         id: "6",
-        name: "Dell XPS 15",
-        title: "Dell XPS 15",
-        price: 1899,
-        description: "High-performance laptop with a stunning 4K OLED display and premium build quality.",
-        category: "Computers",
-        subcategory: "notebooks",
-        stock: 10,
+        name: "Ed Hardy 'Love Kills' Baggy Jorts - Vintage Wash",
+        title: "Ed Hardy 'Love Kills' Baggy Jorts - Vintage Wash",
+        price: 1650,
+        description: "Pantalones cortos de mezclilla tipo \"jorts\" con un lavado ácido grisáceo de inspiración vintage. Esta pieza destaca por su arte gráfico icónico estilo tatuaje en los bolsillos traseros y bordados laterales detallados, capturando la esencia del streetwear de los años 2000.",
+        category: "Ropa de Hombre",
+        subcategory: "pantalones",
+        stock: 12,
         images: [
-            "https://images-cdn.ubuy.qa/634ea45745ed0860dc58d75b-dell-xps-15-9510-laptop-2021.jpg",
+            "../src/assets/ed-hardy-1.jpg",
+            "../src/assets/ed-hardy-2.jpg",
+            "../src/assets/ed-hardy-3.jpg",
+            "../src/assets/ed-hardy-4.jpg"
         ],
-        slug: "dell-xps-15",
+        slug: "ed-hardy-love-kills-baggy-jorts-vintage-wash",
+        discount: 10,
         specs: [
-            { label: "Processor", value: "Intel i9" },
-            { label: "RAM", value: "32GB" },
-            { label: "Screen", value: "15.6 OLED" }
+            { label: "Material", value: "Mezclilla pesada (14 oz) de alta resistencia 100% algodón" },
+            { label: "Corte", value: "Baggy / Wide Leg (corte ancho) que llega por debajo de la rodilla" },
+            { label: "Cierre", value: "Cremallera metálica reforzada y botón de marca grabado" },
+            { label: "Bordados Laterales", value: "Arte floral estilo oriental en hilo color ocre en ambas piernas" }
         ]
     },
     {
         id: "7",
-        name: "MacBook Air 15",
-        title: "MacBook Air 15",
-        price: 1299,
-        description: "Impossibly thin and incredibly fast. The 15-inch MacBook Air gives you more room for what you love with a spacious Liquid Retina display.",
-        category: "Computers",
-        subcategory: "notebooks",
-        stock: 25,
+        name: "Carpenter Shorts 'Ink Splash' - Sand & Onyx Edition",
+        title: "Carpenter Shorts 'Ink Splash' - Sand & Onyx Edition",
+        price: 1150,
+        description: "Pantalones cortos estilo carpintero confeccionados en lona resistente. Presentan un patrón único de salpicaduras de tinta \"all-over print\" sobre una base color arena. Es una prenda técnica que combina la utilidad del trabajo pesado con la estética del streetwear moderno.",
+        category: "Ropa de Hombre",
+        subcategory: "pantalones",
+        stock: 15,
         images: [
-            "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+            "../src/assets/carpenter-1.jpg",
+            "../src/assets/carpenter-2.jpg",
+            "../src/assets/carpenter-3.jpg",
+            "../src/assets/carpenter-4.jpg"
         ],
-        slug: "macbook-air-15",
-        badge: "New",
+        slug: "carpenter-shorts-ink-splash-sand-onyx-edition",
+        badge: "Nuevo",
+        discount: 20,
         specs: [
-            { label: "Chip", value: "M2" },
-            { label: "Battery", value: "18 Hours" },
-            { label: "Weight", value: "3.3 lbs" }
+            { label: "Material", value: "Lona de algodón (Canvas) de alta densidad, pre-lavada para evitar encogimiento" },
+            { label: "Corte", value: "Relaxed Fit con tiro medio y pernera ancha" },
+            { label: "Cierre", value: "Botón metálico de alta resistencia y remaches reforzados en puntos de tensión" }
         ]
     },
     {
         id: "8",
-        name: "ASUS ROG Zephyrus G14",
-        title: "ASUS ROG Zephyrus G14",
-        price: 1499,
-        description: "Powerful gaming in a compact chassis. Features the latest Ryzen processors and RTX graphics for gaming on the go.",
-        category: "Computers",
-        subcategory: "notebooks",
-        stock: 8,
+        name: "Pantalón 'Obsidian' Relaxed Fit - Urban Tailoring",
+        title: "Pantalón 'Obsidian' Relaxed Fit - Urban Tailoring",
+        price: 1320,
+        description: "Un pantalón de corte ancho y fluido en color negro absoluto. Diseñado para quienes buscan una estética limpia y sofisticada sin sacrificar la comodidad. Su caída recta lo hace ideal para combinar con sneakers de plataforma o calzado más formal, adaptándose a un estilo \"Old Money\" o minimalista moderno.",
+        category: "Ropa de Hombre",
+        subcategory: "pantalones",
+        stock: 20,
         images: [
-            "https://www.cnet.com/a/img/resize/69c350f19a0bd245ab8f60a98e456fa9dc67ee42/hub/2024/02/05/e716f8f8-a7a4-418c-9b14-0b210d9dfc72/asus-rog-zephyrus-g14-2024-5409.jpg?auto=webp&fit=crop&height=1200&width=1200",
+            "../src/assets/obsidian-1.jpg",
+            "../src/assets/obsidian-2.jpg",
+            "../src/assets/obsidian-3.jpg",
+            "../src/assets/obsidian-4.jpg"
         ],
-        slug: "asus-rog-zephyrus-g14",
-        badge: "Gaming",
+        slug: "obsidian-relaxed-fit-urban-tailoring",
+        badge: "Basico",
         specs: [
-            { label: "GPU", value: "RTX 4060" },
-            { label: "CPU", value: "Ryzen 9" },
-            { label: "Screen", value: "120Hz" }
+            { label: "Material", value: "Mezcla de algodón y rayón para una caída fluida y tacto suave" },
+            { label: "Corte", value: "Wide Leg (pernera ancha) con pinzas frontales sutiles para dar estructura" },
+            { label: "Cintura", value: "Pretina elástica en la parte posterior para un ajuste adaptable y cómodo" },
+            { label: "Detalles", value: "Acabado mate de alta calidad que no refleja la luz, manteniendo el negro intenso" }
         ]
     },
     {
@@ -196,11 +211,14 @@ export const products: Product[] = [
         title: "Samsung Galaxy S24 Ultra",
         price: 1299,
         description: "Unleash your creativity, productivity, and possibilities. With a built-in S Pen and the most powerful processor yet.",
-        category: "Phones",
+        category: "Ropa de Mujer",
         subcategory: "android",
         stock: 20,
         images: [
-            "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=800&q=80"
+            "../src/assets/samsung-1.jpg",
+            "../src/assets/samsung-2.jpg",
+            "../src/assets/samsung-3.jpg",
+            "../src/assets/samsung-4.jpg"
         ],
         slug: "samsung-galaxy-s24-ultra",
         badge: "AI Ready",
@@ -216,7 +234,7 @@ export const products: Product[] = [
         title: "Google Pixel 8 Pro",
         price: 999,
         description: "The all-pro phone engineered by Google. It has a polished aluminum frame and matte back glass, and it comes in elegant colors.",
-        category: "Phones",
+        category: "Ropa de Mujer",
         subcategory: "android",
         stock: 15,
         images: [
@@ -237,7 +255,7 @@ export const products: Product[] = [
         title: "iPhone 14",
         price: 699,
         description: "A total powerhouse. Impressive battery life, durable build, and a camera system that takes stunning photos in any light.",
-        category: "Phones",
+        category: "Ropa de Mujer",
         subcategory: "iphone",
         stock: 30,
         images: [
@@ -255,14 +273,14 @@ export const products: Product[] = [
         name: "AirPods Max",
         title: "AirPods Max",
         price: 549,
-        description: "A perfect balance of exhilarating high-fidelity audio and the effortless magic of AirPods.",
-        category: "Audio",
+        description: "A perfect balance of exhilarating high-fidelity Calzado and the effortless magic of AirPods.",
+        category: "Calzado",
         stock: 10,
         images: [
             "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?auto=format&fit=crop&w=800&q=80"
         ],
         slug: "airpods-max",
-        badge: "Premium Audio",
+        badge: "Premium Calzado",
         specs: [
             { label: "Driver", value: "Dynamic" },
             { label: "ANC", value: "Active" },
@@ -274,8 +292,8 @@ export const products: Product[] = [
         name: "Bose QuietComfort Ultra",
         title: "Bose QuietComfort Ultra",
         price: 429,
-        description: "World-class noise cancellation, quieter than ever before. Breakthrough spatial audio for more immersive listening.",
-        category: "Audio",
+        description: "World-class noise cancellation, quieter than ever before. Breakthrough spatial Calzado for more immersive listening.",
+        category: "Calzado",
         stock: 18,
         images: [
             "https://m.media-amazon.com/images/I/51ZR4lyxBHL.jpg",
@@ -293,7 +311,7 @@ export const products: Product[] = [
         title: "Sonos Era 100",
         price: 249,
         description: "Next-gen acoustics and new levels of connectivity transform any room with the finely tuned stereo sound and rich bass.",
-        category: "Audio",
+        category: "Calzado",
         stock: 22,
         images: [
             "https://culturageek.com.ar/wp-content/uploads/2024/12/566898-Era-100-Pro_Mount-Ceiling_Black-309023-original-1733603775_11zon.webp",
@@ -307,23 +325,27 @@ export const products: Product[] = [
     },
     {
         id: "15",
-        name: "Keychron Q1 Pro",
-        title: "Keychron Q1 Pro",
-        price: 199,
-        description: "A fully customizable mechanical keyboard with QMK/VIA support and a premium aluminum body.",
-        category: "Computers",
-        subcategory: "keyboards",
+        name: "Jeans 'Blue Ash' Wide Leg - 90s Revival Edition",
+        title: "Jeans 'Blue Ash' Wide Leg - 90s Revival Edition",
+        price: 1550,
+        description: "Los auténticos jeans de corte ancho que definieron una época. Con un lavado a la piedra en azul claro y un efecto de desgaste natural en los muslos, estos pantalones ofrecen una silueta relajada y nostálgica. Su construcción robusta asegura que mantengan su forma con el paso del tiempo.",
+        category: "Ropa de Hombre",
+        subcategory: "pantalones",
         stock: 30,
         images: [
-            "https://images.unsplash.com/photo-1595225476474-87563907a212?auto=format&fit=crop&w=800&q=80",
-            "https://i.ytimg.com/vi/URjj7-QghHs/maxresdefault.jpg"
+            "../src/assets/blue-ash-1.jpg",
+            "../src/assets/blue-ash-2.jpg",
+            "../src/assets/blue-ash-3.jpg",
+            "../src/assets/blue-ash-4.jpg",
         ],
-        slug: "keychron-q1-pro",
-        badge: "Mechanical",
+        slug: "jeans-blue-ash-wide-leg-90s Revival Edition",
+        badge: "Nuevo",
+        discount: 10,
         specs: [
-            { label: "Layout", value: "75%" },
-            { label: "Body", value: "Aluminum" },
-            { label: "Switch", value: "Hot-swappable" }
+            { label: "Material", value: "Mezclilla rígida de 13.5 oz, 100% algodón (sin elastano) para un look auténtico" },
+            { label: "Corte", value: "Extra Baggy desde la cadera hasta el ruedo" },
+            { label: "Cierre", value: "Bragueta de cremallera metálica YKK y botón de aleación de zinc" },
+            { label: "Detalles Traseros", value: "Bolsillos de gran tamaño posicionados estratégicamente para acentuar el estilo skater." },
         ]
     },
     {
@@ -332,7 +354,7 @@ export const products: Product[] = [
         title: "Apple Magic Trackpad",
         price: 129,
         description: "Wireless and rechargeable, it includes the full range of Multi-Touch gestures and Force Touch technology.",
-        category: "Accessories",
+        category: "Accesorios",
         stock: 40,
         images: [
             "https://images.unsplash.com/photo-1522204538344-922f76ecc041?auto=format&fit=crop&w=800&q=80"
@@ -350,7 +372,7 @@ export const products: Product[] = [
         title: "Samsung T7 Shield 2TB",
         price: 159,
         description: "Rugged durability. Fast speeds. The T7 Shield gives you superior performance on the go, even in challenging environmental conditions.",
-        category: "Accessories",
+        category: "Accesorios",
         stock: 100,
         images: [
             "https://http2.mlstatic.com/D_NQ_NP_646728-CBT96610611509_102025-O.webp",
@@ -364,21 +386,26 @@ export const products: Product[] = [
     },
     {
         id: "18",
-        name: "Dell UltraSharp 27",
-        title: "Dell UltraSharp 27",
-        price: 499,
-        description: "Experience captivating details and true-to-life color on this 27-inch QHD monitor with InfinityEdge.",
-        category: "Computers",
-        subcategory: "monitors",
-        stock: 12,
+        name: "Ed Hardy 'Yellow Rose' Ribbed Tank - Y2K Essentials",
+        title: "Ed Hardy 'Yellow Rose' Ribbed Tank - Y2K Essentials",
+        price: 650,
+        description: "Una camiseta de tirantes (tank top) clásica en blanco puro, esencial para un look de capas o para climas cálidos. Presenta un gráfico central estilo tatuaje tradicional con una rosa amarilla y detalles en rojo, junto a la icónica caligrafía de Ed Hardy, manteniendo la estética rebelde y artística de la marca.",
+        category: "Ropa de Hombre",
+        subcategory: "camisas",
+        stock: 40,
         images: [
-            "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=800&q=80",
+            "../src/assets/Tirantes-1.jpg",
+            "../src/assets/Tirantes-2.jpg",
+            "../src/assets/Tirantes-3.jpg",
+            "../src/assets/Tirantes-4.jpg"
         ],
-        slug: "dell-ultrasharp-27",
+        slug: "ed-hardy-yellow-rose-ribbed-tank",
+        discount: 25,
         specs: [
-            { label: "Res", value: "2560x1440" },
-            { label: "Panel", value: "IPS" },
-            { label: "Ports", value: "USB-C Hub" }
+            { label: "Material", value: "95% Algodón y 5% Elastano para un ajuste ceñido y elástico" },
+            { label: "Tejido", value: "Punto acanalado (ribbed) de gramaje ligero, muy suave al tacto" },
+            { label: "Corte", value: "Slim Fit (entallado) con sisas y cuello reforzados para evitar deformaciones" },
+            { label: "Costuras", value: "Laterales invisibles para maximizar el confort" }
         ]
     },
     {
@@ -387,7 +414,7 @@ export const products: Product[] = [
         title: "Fujifilm X100V",
         price: 1399,
         description: "The fifth iteration in Fujifilm's X100 series, blending classic dial-based design with the most advanced mobile technology.",
-        category: "Accessories",
+        category: "Accesorios",
         stock: 3,
         images: [
             "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
@@ -402,23 +429,26 @@ export const products: Product[] = [
     },
     {
         id: "20",
-        name: "LG C3 OLED 42",
-        title: "LG C3 OLED 42",
-        price: 899,
-        description: "The advanced LG OLED evo C-Series is better than ever. The LG OLED evo C3 is powered by the next-gen a9 AI Processor Gen6.",
-        category: "Computers",
-        subcategory: "monitors",
-        stock: 6,
+        name: "Hoodie 'Core' Melange Grey - Oversized Zip-Up",
+        title: "Hoodie 'Core' Melange Grey - Oversized Zip-Up",
+        price: 1100,
+        description: "La sudadera con capucha definitiva. En un tono gris jaspeado clásico, esta pieza ofrece una versatilidad inigualable. Con un interior cepillado para mayor suavidad y un corte holgado, es la prenda perfecta para el día a día o para crear capas en días frescos. Su diseño limpio sin logos frontales la convierte en un básico atemporal.",
+        category: "Ropa de Hombre",
+        subcategory: "sueteres",
+        stock: 35,
         images: [
-            "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?auto=format&fit=crop&w=800&q=80",
-
+            "../src/assets/hoody-core-1.jpg",
+            "../src/assets/hoody-core-2.jpg",
+            "../src/assets/hoody-core-3.jpg",
+            "../src/assets/hoody-core-4.jpg"
         ],
-        slug: "lg-c3-oled-42",
-        badge: "Display",
+        slug: "hoodie-core-melange-grey-oversized-zip-up",
+        badge: "Nuevo",
         specs: [
-            { label: "Type", value: "OLED" },
-            { label: "Refresh", value: "120Hz" },
-            { label: "HDR", value: "Dolby Vision" }
+            { label: "Material", value: "Mezcla de algodón pesado y poliéster (320 GSM) para máximo abrigo y durabilidad" },
+            { label: "Corte", value: "Boxy Oversized con hombros caídos" },
+            { label: "Cierre", value: "Cremallera metálica frontal completa con tirador ergonómico" },
+            { label: "Interior", value: "Forro de felpa suave (fleece) que retiene el calor corporal" }
         ]
     }
 ];
