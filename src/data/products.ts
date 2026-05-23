@@ -42,25 +42,24 @@ export const products: Product[] = [
     },
     {
         id: "2",
-        name: "Sony WH-1000XM5",
-        title: "Sony WH-1000XM5",
+        name: "tenisi Urban Black",
+        title: "tenisi Urban Black",
         price: 399,
-        description: "Industry-leading noise cancellation, exceptional sound quality, and crystal-clear hands-free calling. The WH-1000XM5 headRopa de Mujer rewrite the rules for distraction-free listening and ultra-clear call quality.",
+        description: "Un calzado deportivo de inspiración urbana que combina la estética minimalista con detalles modernos. Con una parte superior",
         category: "Calzado",
         stock: 12,
         images: [
-            "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
-        ],
-        slug: "sony-wh-1000xm5",
+            "../src/assets/zapato1111.jpg",
+            "../src/assets/zapato1.jpg",
+            "../src/assets/zapato111.jpg",
+            ],
+        slug: "Tenisi-Urban-Black",
         badge: "Bestseller",
         discount: 10,
         specs: [
-            { label: "Battery Life", value: "Up to 30 hours" },
-            { label: "Noise Cancelling", value: "Industry Leading" },
-            { label: "Bluetooth", value: "v5.2" },
-            { label: "Weight", value: "250g" }
+            { label: "Material", value: "Cuero sintético" },
+            { label: "Talla", value: "42-44" },
+            { label: "Color", value: "Azul cielo"}
         ]
     },
     {
@@ -270,57 +269,66 @@ export const products: Product[] = [
     },
     {
         id: "12",
-        name: "AirPods Max",
-        title: "AirPods Max",
+        name: "Zapatillas urbanas Burdeos",
+        title: "Zapatillas urbanas Burdeos",
         price: 549,
-        description: "A perfect balance of exhilarating high-fidelity Calzado and the effortless magic of AirPods.",
+        description: "Eleva tu estilo diario. Dale un giro audaz a tus looks casuales con estas zapatillas urbanas de Bershka. Con un imponente tono burdeos y una silueta de inspiración retro, este par es el equilibrio perfecto entre comodidad urbana y tendencia absoluta.",
         category: "Calzado",
         stock: 10,
         images: [
-            "https://images.unsplash.com/photo-1613040809024-b4ef7ba99bc3?auto=format&fit=crop&w=800&q=80"
-        ],
-        slug: "airpods-max",
-        badge: "Premium Calzado",
+            "../src/assets/zapato2.jpg",
+            "../src/assets/zapato22.jpg",
+            "../src/assets/zapato222.jpg",
+            "../src/assets/zapato2222.jpg",
+            ],
+        slug: "zapatillas-urbanas-burdeos",
+        badge: "Calzado Premium",
         specs: [
-            { label: "Driver", value: "Dynamic" },
-            { label: "ANC", value: "Active" },
-            { label: "Spatial", value: "Head Tracking" }
+            { label: "Color", value: "Burdeos / Blanco Crema" },
+            { label: "Estilo", value: "Casual / Streetwear" },
+            { label: "Talla", value: "42-44" }
         ]
     },
     {
         id: "13",
-        name: "Bose QuietComfort Ultra",
-        title: "Bose QuietComfort Ultra",
+        name: "Botas Mustard Yellow",
+        title: "Botas Mustard Yellow",
         price: 429,
-        description: "World-class noise cancellation, quieter than ever before. Breakthrough spatial Calzado for more immersive listening.",
+        description: "La resistencia que define tu estilo. Prepárate para el otoño y el invierno con estas robustas botas de estilo industrial. Inspiradas en un clásico atemporal, estas botas no solo ofrecen un look imponente y urbano, sino que están construidas para durar.",
         category: "Calzado",
         stock: 18,
         images: [
-            "https://m.media-amazon.com/images/I/51ZR4lyxBHL.jpg",
+            "../src/assets/zapato333.jpg",
+            "../src/assets/zapato3.jpg",
+            "../src/assets/zapato33.jpg",
+            
         ],
-        slug: "bose-qc-ultra",
+        slug: "botas-mustard-yellow",
         specs: [
-            { label: "Battery", value: "24 Hours" },
-            { label: "Modes", value: "Quiet/Aware" },
-            { label: "Comfort", value: "Plush" }
+            { label: "Color", value: "Amarillo Mostaza" },
+            { label: "Estilo", value: "Utilitario / Streetwear" },
+            { label: "Talla", value: "42-44" }
         ]
     },
     {
         id: "14",
-        name: "Sonos Era 100",
-        title: "Sonos Era 100",
+        name: "Botas Distressed Brown",
+        title: "Botas Distressed Brown",
         price: 249,
-        description: "Next-gen acoustics and new levels of connectivity transform any room with the finely tuned stereo sound and rich bass.",
+        description: "El clásico del festival que necesitas todo el año. Súmate a la tendencia western con estas impresionantes botas estilo cowboy. Con un acabado texturizado que imita la piel desgastada y un bordado artesanal clásico, este par es la pieza declaración definitiva.",
         category: "Calzado",
         stock: 22,
         images: [
-            "https://culturageek.com.ar/wp-content/uploads/2024/12/566898-Era-100-Pro_Mount-Ceiling_Black-309023-original-1733603775_11zon.webp",
+            "../src/assets/zapato44.jpg",
+            "../src/assets/zapato4.jpg",
+            "../src/assets/zapato444.jpg",
+            "../src/assets/zapato4444.jpg"
         ],
-        slug: "sonos-era-100",
+        slug: "botas-distressed-brown",
         specs: [
-            { label: "Type", value: "Smart Speaker" },
-            { label: "Voice", value: "Alexa Built-in" },
-            { label: "Connect", value: "WiFi/BT" }
+            { label: "Color", value: "Marrón Desgastado / Café" },
+            { label: "Estilo", value: "Western / Streetwear" },
+            { label: "Talla", value: "42-44" }
         ]
     },
     {
@@ -450,7 +458,112 @@ export const products: Product[] = [
             { label: "Cierre", value: "Cremallera metálica frontal completa con tirador ergonómico" },
             { label: "Interior", value: "Forro de felpa suave (fleece) que retiene el calor corporal" }
         ]
-    }
+    },
+    {
+        id: "21",
+        name: "Botas Taupe Suede",
+        title: "Botas Taupe Suede",
+        price: 1114,
+        description: "Estilo rebelde con un toque sofisticado. Eleva tus looks de temporada con estas espectaculares botas altas de estética biker.",
+        category: "Calzado",
+        stock: 2,
+        images: [
+            "../src/assets/zapato5.jpg",
+            "../src/assets/zapato55.jpg",
+            "../src/assets/zapato555.jpg",
+            "../src/assets/zapato5555.jpg"
+        ],
+        slug: "botas-taupe-suede",
+        specs: [
+            { label: "Color", value: "Taupe (Beige Grisáceo / Arena)" },
+            { label: "Estilo", value: "Biker / Casual Urbano" },
+            { label: "Talla", value: "42-44" }
+        ]
+    },
+    {
+        id: "22",
+        name: "Sandalias Thong Total Black",
+        title: "Sandalias Thong Total Black",
+        price: 2749,
+        description: "Vuelven los 2000 con su máxima altura. Lanza tus looks de verano al siguiente nivel con estas sandalias de dedo con súper plataforma de Bershka.",
+        category: "Calzado",
+        stock: 37,
+        images: [
+            "../src/assets/zapato6.jpg",
+            "../src/assets/zapato66.jpg",
+            "../src/assets/zapato666.jpg",
+            "../src/assets/zapato6666.jpg"
+        ],
+        slug: "sandalias-thong-total-black",
+        specs: [
+            { label: "Color", value: "Negro Absoluto"},
+            { label: "Estilo", value: "Y2K / Playa Urbano" },
+            { label: "Talla", value: "42-44" }
+        ]
+    },
+    {
+        id: "23",
+        name: "Sandalias Electric Red",
+        title: "Sandalias Electric Red",
+        price: 2549,
+        description: "Pura actitud en cada paso. Rompe moldes esta temporada con las sandalias de tacón tipo thong de Bershka. Fusionando la nostalgia de los años 2000 con un acabado futurista deslumbrante, este par en rojo metalizado es la dosis de magnetismo que tus conjuntos de noche necesitan.",
+        category: "Calzado",
+        stock: 22,
+        images: [
+            "../src/assets/zapato7.jpg",
+            "../src/assets/zapato77.jpg",
+            "../src/assets/zapato777.jpg",
+            "../src/assets/zapato7777.jpg"
+        ],
+        slug: "sandalias-electric-red",
+        specs: [
+            { label: "Color", value: "Rojo Eléctrico Metalizado" },
+            { label: "Estilo", value: "Party / Night Out / Glam" },
+            { label: "Talla", value: "42-44" }
+        ]
+    },
+{
+        id: "24",
+        name: "Sandalias Nude Elegance",
+        title: "Sandalias Nude Elegance",
+        price: 2549,
+        description: "El efecto invisible que alarga tus piernas. Consigue un look sofisticado, minimalista y de pasarela con estas sandalias de tacón en tono nude. La combinación de las tiras de vinilo transparente con la suela neutra crea una ilusión óptica que estiliza la silueta por completo, convirtiéndolas en el comodín definitivo para eventos formales, cócteles o una noche de fiesta.",
+        category: "Calzado",
+        stock: 22,
+        images: [
+            "../src/assets/zapato8.jpg",
+            "../src/assets/zapato88.jpg",
+            "../src/assets/zapato888.jpg",
+            "../src/assets/zapato8888.jpg"
+        ],
+        slug: "sandalias-nude-elegance",
+        specs: [
+            { label: "Color", value: "Nude / Transparente" },
+            { label: "Estilo", value: "Cocktail / Formal / Glam Night" },
+            { label: "Talla", value: "42-44" }
+        ]
+    },
+    {
+        id: "25",
+        name: "Botas Slouchy Desert Taupe",
+        title: "Botas Slouchy Desert Taupe",
+        price: 2491,
+        description: "",
+        category: "Calzado",
+        stock: 22,
+        images: [
+            "../src/assets/zapato9.jpg",
+            "../src/assets/zapato99.jpg",
+            "../src/assets/zapato999.jpg",
+            "../src/assets/zapato9999.jpg"
+        ],
+        slug: "botas-slouchy-desert-taupe",
+        specs: [
+            { label: "Color", value: "Taupe / Beige" },
+            { label: "Estilo", value: "Festival / Boho-Chic / Avant-Garde" },
+            { label: "Talla", value: "42-44" }
+        ]
+    },
 ];
 
 export const getProductBySlug = (slug: string) => products.find(p => p.slug === slug);

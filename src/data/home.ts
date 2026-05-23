@@ -23,28 +23,21 @@ export const categories = [
 
 export const featuredLinks = [
     {
-        name: "About Us",
+        name: "Acerca de Nosotros",
         image:
-            "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80",
+            "https://images.unsplash.com/photo-1594035795072-3fcd236b7d83?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         path: "/about",
         className: "lg:col-span-2",
         imageClass: "aspect-square lg:aspect-[2/1]",
     },
+    
     {
-        name: "Our Blog",
+        name: "Contactanos",
         image:
-            "https://img.freepik.com/foto-gratis/mensaje-online-blog-chat-comunicacion-envolver-concepto-icono-grafico_53876-139717.jpg?semt=ais_hybrid&w=740&q=80",
-        path: "/blog",
-        className: "lg:col-span-2",
-        imageClass: "aspect-square lg:aspect-[2/1]",
-    },
-    {
-        name: "Contact Us",
-        image:
-            "https://voca-land.sgp1.cdn.digitaloceanspaces.com/-1/1635919600965/contact-us.jpeg",
+            "https://images.unsplash.com/photo-1532057903056-1e4f766c74c0?q=80&w=1025&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         path: "/contact",
-        className: "lg:col-span-4",
-        imageClass: "aspect-[2/1] lg:aspect-[4/1]",
+        className: "lg:col-span-2",
+        imageClass: "aspect-square lg:aspect-[2/1]"
     },
 ];
 
@@ -60,7 +53,7 @@ export const featuredProducts = [
         slug: "macbook-pro-16-m3-max"
     },
     {
-        title: "Sony WH-1000XM5",
+        title: "tenisi Urban Black",
         price: 399,
         stock: 12,
         images: [
@@ -68,7 +61,7 @@ export const featuredProducts = [
             "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80",
             "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
         ],
-        slug: "sony-wh-1000xm5"
+        slug: "tenisi-urban-black"
     },
     {
         title: "iPhone 15 Pro Max",
