@@ -179,23 +179,23 @@ const discountedPrice = product.price * (1 - (product.discount || 0) / 100);
 
       <!-- Quantity Selector -->
       <div
-        class="flex items-center bg-slate-900 border-2 border-slate-100 rounded-2xl p-1 shadow-sm w-fit sm:w-auto"
+        class="flex items-center bg-slate-900 border-2 border-slate-100 rounded-2xl p-1 m-8 shadow-sm w-12 sm:w-25 h-10 "
       >
         <button
           id="decrement-qty"
-          class="flex items-center justify-center p-4 hover:bg-slate-800 cursor-pointer rounded-xl transition-colors text-white disabled:opacity-30"
+          class="flex items-center justify-center p-1 hover:bg-slate-800 cursor-pointer rounded-xl transition-colors text-white disabled:opacity-30"
         >
           <Icon name="lucide:minus" class="w-[18px] h-[18px]" />
         </button>
 
         <span
           id="quantity-display"
-          class="w-12 text-center text-white font-black text-xl">1</span
+          class="w-10 text-center text-white font-black text-xl">1</span
         >
 
         <button
           id="increment-qty"
-          class="flex items-center justify-center p-4 hover:bg-slate-800 cursor-pointer rounded-xl transition-colors text-white disabled:opacity-30"
+          class="flex items-center justify-center p-1 hover:bg-slate-800 cursor-pointer rounded-xl transition-colors text-white disabled:opacity-30"
         >
           <Icon name="lucide:plus" class="w-[18px] h-[18px]" />
         </button>
