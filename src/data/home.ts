@@ -43,43 +43,50 @@ export const featuredLinks = [
 
 export const featuredProducts = [
     {
-        title: "MacBook Pro 16 M3 Max",
-        price: 3499,
-        stock: 5,
+        title: "Jersey 勝利傑 (Shōri Ketsu) - Samurai Edition",
+        price: 1450,
+        stock: 30,
         images: [
-            "https://images.unsplash.com/photo-1629131726692-1accd0c53ce0?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?auto=format&fit=crop&w=800&q=80"
+            "https://i.ibb.co/XZghQNbG/Shori-Ketsu-1.jpg",
+            "https://i.ibb.co/6R04y107/Shori-Ketsu-2.jpg",
+            "https://i.ibb.co/j9FvMCQJ/Shori-Ketsu-3.jpg",
+            "https://i.ibb.co/Y4C4VjPC/Shori-Ketsu-4.jpg"
         ],
-        slug: "macbook-pro-16-m3-max"
+        slug: "jersey-shōri-ketsu-samurai-edition"
     },
     {
-        title: "tenisi Urban Black",
-        price: 399,
-        stock: 12,
+        title: "Camiseta 'Papillon Noi' - Vintage Graphic Tee",
+        price: 699,
+        stock: 28,
         images: [
-            "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=800&q=80"
+            "https://i.ibb.co/0VZTqb7y/camiseta-1.jpg",
+            "https://i.ibb.co/VY2j8mpr/camiseta-2.jpg",
+            "https://i.ibb.co/YFDjdhtQ/camiseta-3.jpg",
+            "https://i.ibb.co/QjKyv29P/camiseta-4.jpg"
         ],
-        slug: "tenisi-urban-black"
+        slug: "camiseta-papillon-noi"
     },
     {
-        title: "iPhone 15 Pro Max",
-        price: 1199,
-        stock: 0,
+        title: "Sandalias Nude Elegance",
+        price: 2549,
+        stock: 22,
         images: [
-            "https://images.unsplash.com/photo-1678652197831-2d180705cd2c?auto=format&fit=crop&w=800&q=80"
+            "https://i.ibb.co/M0SKsLD/zapato888.jpg",
+            "https://i.ibb.co/j9RvLKDk/zapato88.jpg",
+            "https://i.ibb.co/JFsJWKrj/zapato8.jpg",
+            "https://i.ibb.co/gMQgXssx/zapato8888.jpg"
         ],
-        slug: "iphone-15-pro-max"
+        slug: "sandalias-nude-elegance"
     },
     {
-        title: "Logitech MX Master 3S",
-        price: 99,
-        stock: 50,
+        title: "joyas-variadas-y2k–cyber-star-&-heart-jewelry-pack",
+        price: 1222,
+        stock: 25,
         images: [
-            "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
-            "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
+             "https://i.ibb.co/fV1dRqd6/ac55.jpg",
+            "https://i.ibb.co/G4XDVrwb/ac555.jpg",
+            "https://i.ibb.co/S4BMb8ZL/ac5.jpg",
         ],
-        slug: "logitech-mx-master-3s"
+        slug: "joyas-variadas-y2k–cyber-star-&-heart-jewelry-pack"
     }
 ];

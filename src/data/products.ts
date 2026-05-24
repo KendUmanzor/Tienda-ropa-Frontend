@@ -23,14 +23,15 @@ export const products: Product[] = [
         description: "Un jersey tipo polo de alto rendimiento que fusiona el estilo de los uniformes de fútbol retro con la cultura japonesa. Presenta un diseño dividido en tonos azul medianoche y carmesí, decorado con llamas sutiles y bordados de alta calidad.",
         category: "Ropa de Hombre",
         subcategory: "camisas",
-        stock: 25,
-        images: ["https://i.ibb.co/XZghQNbG/Shori-Ketsu-1.jpg",
+        stock: 30,
+        images: [
+            "https://i.ibb.co/XZghQNbG/Shori-Ketsu-1.jpg",
             "https://i.ibb.co/6R04y107/Shori-Ketsu-2.jpg",
             "https://i.ibb.co/j9FvMCQJ/Shori-Ketsu-3.jpg",
             "https://i.ibb.co/Y4C4VjPC/Shori-Ketsu-4.jpg"
         ],
         slug: "jersey-shōri-ketsu-samurai-edition",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "100% Poliéster transpirable con tecnología de secado rápido." },
@@ -55,7 +56,7 @@ export const products: Product[] = [
             "https://i.ibb.co/cSSTvHJN/zapato11.jpg"
             ],
         slug: "Tenisi-Urban-Black",
-        badge: "Bestseller",
+        badge: "New Arrival",
         discount: 10,
         specs: [
             { label: "Material", value: "Cuero sintético" },
@@ -102,7 +103,7 @@ export const products: Product[] = [
             "https://i.ibb.co/603Gdmhf/acc1.jpg",
         ],
         slug: "collar-de-cuentas-minerales-e-hilo-trenzado–summer-festival",
-        badge: "Essential",
+        badge: "New Arrival",
         discount: 0,
         specs: [
             { label: "estilo", value: "boho-chic" },
@@ -127,7 +128,7 @@ export const products: Product[] = [
             "https://i.ibb.co/m5s4mFVF/halftime-4.jpg",
         ],
         slug: "polo-de-malla-halftime-worldwide-edicion-vintage-sport",
-        badge: "Nuevo",
+        badge: "New Arrival",
         discount: 0,
         specs: [
             { label: "Material", value: "Tejido de malla técnica perforada de alta ventilación" },
@@ -152,6 +153,7 @@ export const products: Product[] = [
             "https://i.ibb.co/k6W3BvD2/ed-hardy-4.jpg"
         ],
         slug: "ed-hardy-love-kills-baggy-jorts-vintage-wash",
+        badge: "Featured",
         discount: 10,
         specs: [
             { label: "Material", value: "Mezclilla pesada (14 oz) de alta resistencia 100% algodón" },
@@ -176,7 +178,7 @@ export const products: Product[] = [
             "https://i.ibb.co/845Txzqf/carpenter-4.jpg"
         ],
         slug: "carpenter-shorts-ink-splash-sand-onyx-edition",
-        badge: "Nuevo",
+        badge: "New Arrival",
         discount: 20,
         specs: [
             { label: "Material", value: "Lona de algodón (Canvas) de alta densidad, pre-lavada para evitar encogimiento" },
@@ -200,7 +202,7 @@ export const products: Product[] = [
             "https://i.ibb.co/kghvCskR/obsidian-4.jpg"
         ],
         slug: "obsidian-relaxed-fit-urban-tailoring",
-        badge: "Basico",
+        badge: "Featured",
         specs: [
             { label: "Material", value: "Mezcla de algodón y rayón para una caída fluida y tacto suave" },
             { label: "Corte", value: "Wide Leg (pernera ancha) con pinzas frontales sutiles para dar estructura" },
@@ -224,7 +226,7 @@ export const products: Product[] = [
             "https://i.ibb.co/sdY3Ks7b/vestido-4.jpg"
         ],
         slug: "vestido-lace-indigo-cottagecore",
-        badge: "AI Ready",
+        badge: "Featured",
         discount: 10, 
         specs: [
             { label: "Material", value: "100% Rayón de alta calidad con acabado tipo lino, fresco y con caída" },
@@ -249,7 +251,7 @@ export const products: Product[] = [
             "https://i.ibb.co/MDXB33Mt/vestido-rojo-3.jpg"
         ],
         slug: "vestido-antique-red-lace-trimmed-blouse",
-        badge: "Smartest",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "Mezcla de algodón y lino suave, altamente transpirable" },
@@ -263,7 +265,7 @@ export const products: Product[] = [
         name: "Camiseta 'Papillon Noi' - Vintage Graphic Tee",
         title: "Camiseta 'Papillon Noi' - Vintage Graphic Tee",
         price: 699,
-        description: "A total powerhouse. Impressive battery life, durable build, and a camera system that takes stunning photos in any light.",
+        description: "Eleva tu look nocturno con este sofisticado top de malla asimétrico. Diseñado con un elegante escote de un solo hombro, destaca por su espectacular manga larga tipo capa que aporta movimiento y un aire dramático a cada paso. Su tejido de tul semitransparente ofrece un juego visual de capas ideal para combinar con un top básico debajo, logrando un equilibrio perfecto entre audacia y elegancia.",
         category: "Ropa de Mujer",
         subcategory: "tops",
         stock: 28,
@@ -274,6 +276,7 @@ export const products: Product[] = [
             "https://i.ibb.co/QjKyv29P/camiseta-4.jpg"
         ],
         slug: "camiseta-papillon-noi",
+        badge: "New Arrival",
         discount: 5,
         specs: [
             { label: "Material", value: "100% Algodón orgánico de peso medio, suave al tacto y duradero." },
@@ -298,7 +301,7 @@ export const products: Product[] = [
             "https://i.ibb.co/YTh0NzsH/zapato2222.jpg",
             ],
         slug: "zapatillas-urbanas-burdeos",
-        badge: "Calzado Premium",
+        badge: "Featured",
         specs: [
             { label: "Color", value: "Burdeos / Blanco Crema" },
             { label: "Estilo", value: "Casual / Streetwear" },
@@ -322,6 +325,7 @@ export const products: Product[] = [
             
         ],
         slug: "botas-mustard-yellow",
+        badge: "Featured",
         specs: [
             { label: "Color", value: "Amarillo Mostaza" },
             { label: "Estilo", value: "Utilitario / Streetwear" },
@@ -344,6 +348,7 @@ export const products: Product[] = [
             "https://i.ibb.co/sd4yCMyq/zapato444.jpg"
         ],
         slug: "botas-distressed-brown",
+        badge: "Featured",
         specs: [
             { label: "Color", value: "Marrón Desgastado / Café" },
             { label: "Estilo", value: "Western / Streetwear" },
@@ -366,7 +371,7 @@ export const products: Product[] = [
             "https://i.ibb.co/Wh05DZL/blue-ash-4.jpg",
         ],
         slug: "jeans-blue-ash-wide-leg-90s Revival Edition",
-        badge: "Nuevo",
+        badge: "New Arrival",
         discount: 10,
         specs: [
             { label: "Material", value: "Mezclilla rígida de 13.5 oz, 100% algodón (sin elastano) para un look auténtico" },
@@ -390,6 +395,7 @@ export const products: Product[] = [
             "https://i.ibb.co/WvLGSk1P/acc2.jpg",
         ],
         slug: "cinturon-de-lona-aries–desert-beige",
+        badge: "New Arrival",
         specs: [
             { label: "Materiales", value: "metal hilo textil y abalorios" },
             { label: "Color", value: "Multicolor" },
@@ -411,6 +417,7 @@ export const products: Product[] = [
             "https://i.ibb.co/LhY3qmWX/acc3.jpg",
         ],
         slug: "cadenas-de-eslabones-griegos-y-corazon–silver-grunge",
+        badge: "Featured",
         specs: [
             { label: "Materiales", value: "Plata 925 y oro 14k" },
             { label: "Color", value: "Plateado" },
@@ -433,6 +440,7 @@ export const products: Product[] = [
             "https://i.ibb.co/35BcQjFx/Tirantes-3.jpg"
         ],
         slug: "ed-hardy-yellow-rose-ribbed-tank",
+        badge: "New Arrival",
         discount: 25,
         specs: [
             { label: "Material", value: "95% Algodón y 5% Elastano para un ajuste ceñido y elástico" },
@@ -456,7 +464,7 @@ export const products: Product[] = [
             
         ],
         slug: "gorra-trucker-con-lavado-acido-y-bordado-tribal–acid-brown-grunge",
-        badge: "Limited",
+        badge: "New Arrival",
         specs: [
             { label: "Materiales", value: "lino " },
             { label: "Color", value: "cafe" },
@@ -479,7 +487,7 @@ export const products: Product[] = [
             "https://i.ibb.co/6RKfwQyT/hoody-core-4.jpg"
         ],
         slug: "hoodie-core-melange-grey-oversized-zip-up",
-        badge: "Nuevo",
+        badge: "New Arrival",
         specs: [
             { label: "Material", value: "Mezcla de algodón pesado y poliéster (320 GSM) para máximo abrigo y durabilidad" },
             { label: "Corte", value: "Boxy Oversized con hombros caídos" },
@@ -503,6 +511,7 @@ export const products: Product[] = [
             "https://i.ibb.co/p6pB7ZLg/zapato5555.jpg"
         ],
         slug: "botas-taupe-suede",
+        badge: "New Arrival",
         specs: [
             { label: "Color", value: "Taupe (Beige Grisáceo / Arena)" },
             { label: "Estilo", value: "Biker / Casual Urbano" },
@@ -525,6 +534,7 @@ export const products: Product[] = [
             "https://i.ibb.co/RkB9RtYt/zapato6666.jpg"
         ],
         slug: "sandalias-thong-total-black",
+        badge: "New Arrival",
         specs: [
             { label: "Color", value: "Negro Absoluto"},
             { label: "Estilo", value: "Y2K / Playa Urbano" },
@@ -547,6 +557,7 @@ export const products: Product[] = [
             "https://i.ibb.co/cXLqN3gR/zapato77.jpg"
         ],
         slug: "sandalias-electric-red",
+        badge: "New Arrival",
         specs: [
             { label: "Color", value: "Rojo Eléctrico Metalizado" },
             { label: "Estilo", value: "Party / Night Out / Glam" },
@@ -569,6 +580,7 @@ export const products: Product[] = [
             "https://i.ibb.co/gMQgXssx/zapato8888.jpg"
         ],
         slug: "sandalias-nude-elegance",
+        badge: "New Arrival",
         specs: [
             { label: "Color", value: "Nude / Transparente" },
             { label: "Estilo", value: "Cocktail / Formal / Glam Night" },
@@ -580,7 +592,7 @@ export const products: Product[] = [
         name: "Botas Slouchy Desert Taupe",
         title: "Botas Slouchy Desert Taupe",
         price: 2491,
-        description: "",
+        description: "Una pieza híbrida única que desafía lo convencional. Este diseño combina la frescura de una sandalia de dedo con la estructura de un botín de caña media en efecto gamuza. Los detalles de tachuelas plateadas en la parte frontal y su silueta holgada (slouchy) ofrecen un aire bohemio y moderno, perfecto para quienes buscan un calzado que sea el centro de atención",
         category: "Calzado",
         subcategory: "mujer",
         stock: 22,
@@ -591,6 +603,7 @@ export const products: Product[] = [
             "https://i.ibb.co/Dg8qQfV8/zapato999.jpg"
         ],
         slug: "botas-slouchy-desert-taupe",
+        badge: "New Arrival",
         specs: [
             { label: "Color", value: "Taupe / Beige" },
             { label: "Estilo", value: "Festival / Boho-Chic / Avant-Garde" },
@@ -613,6 +626,7 @@ export const products: Product[] = [
             "https://i.ibb.co/xq37HWqc/falda-4.jpg"
         ],
         slug: "falda-midi-blanca-plisada-casual",
+        badge: "New Arrival",
         discount: 15,
         specs: [
             { label: "Material", value: "Mezcla de algodón y poliéster" },
@@ -637,6 +651,7 @@ export const products: Product[] = [
             "https://i.ibb.co/hFF7JgzS/falda-negra-4.jpg"
         ],
         slug: "falda-mini-de-tiro-bajo---estampado-polka-dot",
+        badge: "New Arrival",
         specs: [
             { label: "Material", value: "95% Poliéster, 5% Elastano (Tela con ligero estiramiento)" },
             { label: "Corte", value: "Mini (por encima de la rodilla) con silueta tipo A" },
@@ -660,6 +675,7 @@ export const products: Product[] = [
             "https://i.ibb.co/2YdLCgdQ/falda-azul-4.jpg"
         ],
         slug: "falda-mini-icy-blue-de-lentejuelas",
+        badge: "New Arrival",
         specs: [
             { label: "Material", value: "Poliéster con acabado en lentejuelas" },
             { label: "Corte", value: "Mini, silueta en A" },
@@ -683,6 +699,7 @@ export const products: Product[] = [
             "https://i.ibb.co/qYxkVsL3/bikini-2-4.jpg"
         ],
         slug: "top-de-bikini-triangular-con-cordones---estampado-camuflaje",
+        badge: "Featured",
         specs: [
             { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
             { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
@@ -706,7 +723,7 @@ export const products: Product[] = [
             "https://i.ibb.co/21B3ddjs/hombre6.jpg"
         ],
         slug: "chaqueta-de-plumas-puffer-rosa-pastel-con-capucha",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "Plumas de pato" },
@@ -731,6 +748,7 @@ export const products: Product[] = [
             "https://i.ibb.co/k6WG1KVd/hombre7.jpg"
         ],
         slug: "chaqueta-de-algodon-lavado-con-tachuelas-bershka–dark-grey",
+        badge: "Featured",
         specs: [
             { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
             { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
@@ -743,7 +761,7 @@ export const products: Product[] = [
         name: "Camiseta Ringer Retro Brasil – Canary Yellow",
         title: "Camiseta Ringer Retro Brasil – Canary Yellow",
         price: 14123,
-        description: "",
+        description: "Captura la energía y el espíritu del fútbol con esta camiseta estilo \"Ringer Tee\" de Brasil. Con un vibrante cuerpo amarillo, destaca por sus detalles en contraste: cuello azul y puños verdes que rinden homenaje a los colores icónicos de la selección. El diseño frontal presenta la palabra \"BRASIL\" en letras universitarias sobre la bandera nacional, logrando un look retro-urbano ideal tanto para apoyar a tu equipo como para un outfit casual con mucha personalidad.",
         category: "Ropa de Hombre",
         subcategory: "camisas",
         stock: 25,
@@ -754,7 +772,7 @@ export const products: Product[] = [
             "https://i.ibb.co/rRYjdhZv/hombre8.jpg"
         ],
         slug: "camiseta-ringer-retro-brasil–canary-yellow",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "100% Algodón" },
@@ -777,6 +795,7 @@ export const products: Product[] = [
             "https://i.ibb.co/nMvVM9jd/acc5.jpg",
         ],
         slug: "gorro-beanie-de-punto-con-grafico-gotico–cyber-black-&-red",
+        badge: "Featured",
         specs: [
             { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
             { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
@@ -799,7 +818,7 @@ export const products: Product[] = [
            
         ],
         slug: "cartera-de-mano-con-correa-vaquera-desgastada–denim-grunge",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "jeans" },
@@ -822,6 +841,7 @@ export const products: Product[] = [
             
         ],
         slug: "gorra-de-béisbol-bicolor-distressed-98–retro-lilac-&-black",
+        badge: "Featured",
         specs: [
             { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
             { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
@@ -844,7 +864,7 @@ export const products: Product[] = [
             "https://i.ibb.co/QvFXM3Vy/acc8.jpg",
         ],
         slug: "gorra-de-béisbol-con-parches-y-estrellas–chocolate-y2k-sport",
-        badge: "Premium",
+        badge: "New Arrival",
         discount: 15,
         specs: [
             { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
@@ -868,6 +888,7 @@ export const products: Product[] = [
             "https://i.ibb.co/dwr74jpw/acc9.jpg"
         ],
         slug: "gorra-de-béisbol-brasil-retro-10–canary-yellow-&-green",
+        badge: "New Arrival",
         specs: [
             { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
             { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
@@ -891,7 +912,7 @@ export const products: Product[] = [
             "https://i.ibb.co/B5VSBGV2/hombre5.jpg"
         ],
         slug: "sobrecamisa-de-pana-lavada-bershka–caramel-vintage",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "paño de canalé" },
@@ -916,6 +937,7 @@ export const products: Product[] = [
             "https://i.ibb.co/MQVFthc/hombre4.jpg"
         ],
         slug: "cortavientos-técnico-con-capucha-bershka–stealth-black",
+        badge: "New Arrival",
         specs: [
             { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
             { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
@@ -928,7 +950,7 @@ export const products: Product[] = [
         name: "Chaqueta Vaquera Rígida con Pespunte Contraste Bershka – Raw Indigo",
         title: "Chaqueta Vaquera Rígida con Pespunte Contraste Bershka – Raw Indigo",
         price: 1213,
-        description: "",
+        description: "Una prenda esencial con un toque contemporáneo. Esta chaqueta denim en un profundo azul índigo destaca por su diseño \"boxy\" de corte cuadrado y costuras en contraste que resaltan su estructura. Cuenta con amplios bolsillos frontales de parche y bolsillos laterales discretos, combinando funcionalidad con una estética urbana minimalista. Su tejido rígido y duradero la convierte en la tercera pieza ideal para elevar cualquier atuendo básico con un aire de modernidad atemporal.",
         category: "Ropa de Hombre",
         subcategory: "sueteres",
         stock: 25,
@@ -939,7 +961,7 @@ export const products: Product[] = [
             "https://i.ibb.co/DHSyzzMv/hombre33.jpg"
         ],
         slug: "chaqueta-vaquera-rigida-con-pespunte-contraste-bershka–raw-indigo",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "vaquera rígida" },
@@ -963,7 +985,8 @@ export const products: Product[] = [
             "https://i.ibb.co/Y4VKQyBT/hombre22.jpg",
             "https://i.ibb.co/BH6ryPGX/hombre2.jpg"
         ],
-        slug: "top-de-bikini-triangular-con-cordones---estampado-camuflaje",
+        slug: "cortavientos-técnico-block-color–crimson-&-black",
+        badge: "New Arrival",
         specs: [
             { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
             { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
@@ -987,7 +1010,7 @@ export const products: Product[] = [
             "https://i.ibb.co/FL1PXBcX/hombre11.jpg"
         ],
         slug: "cazadora-corta-tie-dye-arena-con-capucha",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "lino" },
@@ -1012,7 +1035,7 @@ export const products: Product[] = [
             "https://i.ibb.co/HDN4ZSt4/ac1.jpg"
         ],
         slug: "gorra-trucker-de-lona-lavada-ed-hardy–vintage-tattoo-grey",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "lona de algodón lavada" },
@@ -1037,7 +1060,7 @@ export const products: Product[] = [
             "https://i.ibb.co/BHbXr4h6/ac2.jpg"
         ],
         slug: "gafas-de-sol-de-pantalla-envolvente–cyber-y2k-silver-&-grey",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "color", value: "gris ahumado" },
@@ -1060,7 +1083,7 @@ export const products: Product[] = [
             "https://i.ibb.co/KzRk0Sxk/ac3.jpg"
         ],
         slug: "gafas-de-sol-de-pantalla-envolvente–retro-amber-&-chocolate-tech",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "color", value: "ámbar" },
@@ -1083,7 +1106,7 @@ export const products: Product[] = [
             "https://i.ibb.co/QvGDC6rH/ac4.jpg",
         ],
         slug: "pendientes-de-aro-abombados–silver-crescent-pack",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Color", value: "plateado" },
@@ -1106,7 +1129,7 @@ export const products: Product[] = [
             "https://i.ibb.co/S4BMb8ZL/ac5.jpg",
         ],
         slug: "joyas-variadas-y2k–cyber-star-&-heart-jewelry-pack",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "Metal" },
@@ -1129,7 +1152,7 @@ export const products: Product[] = [
             
         ],
         slug: "aretes-de-flor-tropical-hibisco–summer-hibiscus-studs",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "Plata" },
@@ -1151,7 +1174,7 @@ export const products: Product[] = [
             "https://i.ibb.co/N6GR4djs/ac77.jpg",
         ],
         slug: "pulseras-de-eslabones-plateadas–cyber-heart-bracelet-pack",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "Resina" },
@@ -1173,7 +1196,7 @@ export const products: Product[] = [
             "https://i.ibb.co/7xXPP6W4/ac8.jpg",
         ],
         slug: "pulseras-rígidas-minimalistas–silver-chunky-bangles",
-        badge: "Premium",
+        badge: "Featured",
         discount: 15,
         specs: [
             { label: "Material", value: "Plata" },

@@ -1,0 +1,76 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import CategoriesHeader from "../../components/categories/CategoriesHeader.astro";
+import Breadcrumbs from "../../components/ui/Breadcrumbs.astro";
+import CardProduct from "../../components/products/CardProduct.astro";
+import { products } from "../../data/products";
+
+const allProducts = products;
+
+const breadcrumbItems = [
+  { label: "Home", href: "/" },
+  { label: "Todos los productos" },
+];
+---
+
+<Layout title="Todos los productos | E-COMMER">
+  <CategoriesHeader title="Todos los productos" />
+
+  <div class="bg-white min-h-screen pb-20 pt-10">
+    <div class="max-w-7xl mx-auto px-6">
+      <div id="breadcrumbs-container">
+        <Breadcrumbs items={breadcrumbItems} />
+      </div>
+
+      <main class="py-12">
+        <div
+          id="products-grid"
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 animate-fade-in"
+        >
+          {
+            allProducts.map((product) => (
+              <div
+                class="product-item transition-all duration-300"
+                data-subcategory={product.subcategory?.toLowerCase() || ""}
+              >
+                <CardProduct
+                  title={product.title}
+                  price={product.price}
+                  images={product.images}
+                  stock={product.stock}
+                  slug={product.slug}
+                />
+              </div>
+            ))
+          }
+        </div>
+
+        <div
+          id="no-products-msg"
+          class="hidden text-center py-24 bg-slate-50 rounded-3xl border-2 border-dashed border-slate-200"
+        >
+          <p class="text-slate-400 font-bold uppercase tracking-widest">
+            No se encontraron productos. ¡Explora nuestra tienda para descubrir
+            más!
+          </p>
+        </div>
+      </main>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+  }
+</style>

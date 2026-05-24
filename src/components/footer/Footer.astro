@@ -3,15 +3,18 @@ import { Icon } from "astro-icon/components";
 ---
 
 <footer class="bg-base-300 text-base-content pt-16 pb-8 mt-auto">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div
-            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12"
-        >
-            <!-- Brand Section -->
-            <div class="col-span-1 lg:col-span-1">
-                <a href="/" class="flex items-center gap-2 mb-6 group">
-                    <img src="https://i.ibb.co/s9RbYYcv/logo.png" onerror="this.src='../src/assets/logo.png'; this.onerror=null;" alt="ESIGNA Streetwear Logo" class="w-10 h-10 rounded-xl group-hover:rotate-12 transition-transform shadow-lg" />
-                    <!-- <div
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+      <!-- Brand Section -->
+      <div class="col-span-1 lg:col-span-1">
+        <a href="/" class="flex items-center gap-2 mb-6 group">
+          <img
+            src="https://i.ibb.co/s9RbYYcv/logo.png"
+            onerror="this.src='../src/assets/logo.png'; this.onerror=null;"
+            alt="ESIGNA Streetwear Logo"
+            class="w-10 h-10 rounded-xl group-hover:rotate-12 transition-transform shadow-lg"
+          />
+          <!-- <div
                         class="w-10 h-10 bg-primary rounded-xl flex items-center justify-center group-hover:rotate-12 transition-transform shadow-lg"
                     >
                         <Icon
@@ -19,18 +22,17 @@ import { Icon } from "astro-icon/components";
                             class="w-6 h-6 text-primary-content"
                         />
                     </div> -->
-                    <span
-                        class="text-2xl font-bold tracking-tighter gradient-text"
-                    >
-                        ESIGNA Streetwear
-                    </span>
-                </a>
-                <p class="text-base-content/70 mb-6 leading-relaxed">
-                    Moda y estilo para quienes quieren destacar cada día. Descubre nuestra colección de ropa diseñada para 
-                    combinar comodidad, tendencia y personalidad.
-                </p>
-                <!-- Socials -->
-                <!-- <div class="flex gap-4">
+          <span class="text-2xl font-bold tracking-tighter gradient-text">
+            ESIGNA Streetwear
+          </span>
+        </a>
+        <p class="text-base-content/70 mb-6 leading-relaxed">
+          Moda y estilo para quienes quieren destacar cada día. Descubre nuestra
+          colección de ropa diseñada para combinar comodidad, tendencia y
+          personalidad.
+        </p>
+        <!-- Socials -->
+        <!-- <div class="flex gap-4">
                     <a
                         href="#"
                         class="btn btn-circle btn-sm btn-ghost hover:bg-primary/20 hover:text-primary transition-colors"
@@ -53,78 +55,74 @@ import { Icon } from "astro-icon/components";
                         <Icon name="lucide:github" class="w-5 h-5" />
                     </a>
                 </div> -->
-            </div>
+      </div>
 
-            <!-- Links Column 1 -->
-            <div>
-                <h3 class="font-bold text-lg mb-6 text-base-content/90">
-                    Tienda
-                </h3>
-                <ul class="space-y-4">
-                    <li>
-                        <a
-                            href="/"
-                            class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
-                            >Todos los productos</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="/category/ropa%20de%20hombre"
-                            class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
-                            >Destacados</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="/category/ropa%20de%20mujer"
-                            class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
-                            >Nuevos Productos</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="/category/accesorios"
-                            class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
-                            >Ofertas</a
-                        >
-                    </li>
-                </ul>
-            </div>
+      <!-- Links Column 1 -->
+      <div>
+        <h3 class="font-bold text-lg mb-6 text-base-content/90">Tienda</h3>
+        <ul class="space-y-4">
+          <li>
+            <a
+              href="/shop"
+              class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
+              >Todos los productos</a
+            >
+          </li>
+          <li>
+            <a
+              href="/shop/featured"
+              class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
+              >Destacados</a
+            >
+          </li>
+          <li>
+            <a
+              href="/shop/new-arrivals"
+              class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
+              >Nuevos Productos</a
+            >
+          </li>
+          <li>
+            <a
+              href="/shop/sale"
+              class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
+              >Ofertas</a
+            >
+          </li>
+        </ul>
+      </div>
 
-            <!-- Links Column 2 -->
-            <div>
-                <h3 class="font-bold text-lg mb-6 text-base-content/90">
-                    Soporte
-                </h3>
-                <ul class="space-y-4">
-                    <li>
-                        <a
-                            href="/contact"
-                            class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
-                            >Contactanos</a
-                        >
-                    </li>
-                    <li>
-                        <a
-                            href="/about"
-                            class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
-                            >Acerca de Nosotros</a
-                        >
-                    </li>
-                    
-                    <li>
-                        <a
-                            href="/checkout"
-                            class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
-                            >Revisa tu Pedido</a
-                        >
-                    </li>
-                </ul>
-            </div>
+      <!-- Links Column 2 -->
+      <div>
+        <h3 class="font-bold text-lg mb-6 text-base-content/90">Soporte</h3>
+        <ul class="space-y-4">
+          <li>
+            <a
+              href="/contact"
+              class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
+              >Contactanos</a
+            >
+          </li>
+          <li>
+            <a
+              href="/about"
+              class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
+              >Acerca de Nosotros</a
+            >
+          </li>
 
-            <!-- Newsletter -->
-            <!-- <div>
+          <li>
+            <a
+              href="/checkout"
+              class="text-base-content/60 hover:text-primary hover:translate-x-1 transition-all inline-block"
+              >Revisa tu Pedido</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <!-- Newsletter -->
+      <!-- <div>
                 <h3 class="font-bold text-lg mb-6 text-base-content/90">
                     Mantente Actualizado
                 </h3>
@@ -147,27 +145,23 @@ import { Icon } from "astro-icon/components";
                     </div>
                 </div>
             </div> -->
-        </div>
-
-        <div
-            class="border-t border-base-content/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-base-content/50"
-        >
-            <p>
-                &copy; {new Date().getFullYear()} ESIGNA Streetwear. Todos los derechos reservados.
-            </p>
-        </div>
     </div>
+
+    <div
+      class="border-t border-base-content/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-base-content/50"
+    >
+      <p>
+        &copy; {new Date().getFullYear()} ESIGNA Streetwear. Todos los derechos reservados.
+      </p>
+    </div>
+  </div>
 </footer>
 
 <style>
-    .gradient-text {
-        background: linear-gradient(
-            135deg,
-            var(--color-primary) 0%,
-            #6366f1 100%
-        );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-    }
+  .gradient-text {
+    background: linear-gradient(135deg, var(--color-primary) 0%, #6366f1 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
 </style>

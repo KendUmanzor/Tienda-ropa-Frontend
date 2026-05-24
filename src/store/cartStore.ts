@@ -3,10 +3,12 @@ import { persistentAtom } from '@nanostores/persistent';
 
 export interface CartItem {
     id: string;
+    productId: string;
     name: string;
     price: number;
     image: string;
     quantity: number;
+    size?: string;
     category?: string;
     discount?: number;
     stock?: number;
@@ -45,8 +47,11 @@ export function closeCart() {
 
 export function addToCart(product: Omit<CartItem, 'quantity'>, qty: number = 1) {
     const items = cartItems.get();
-    const currentStock = getEffectiveStock(product.id, product.stock || 0);
-    const existingItem = items.find((item) => item.id === product.id);
+    const productId = product.productId || product.id;
+    const selectedSize = product.size ? String(product.size) : "NOSIZE";
+    const itemId = `${productId}::${selectedSize}`;
+    const currentStock = getEffectiveStock(productId, product.stock || 0);
+    const existingItem = items.find((item) => item.id === itemId);
 
     if (existingItem) {
         const newQuantity = existingItem.quantity + qty;
@@ -58,7 +63,7 @@ export function addToCart(product: Omit<CartItem, 'quantity'>, qty: number = 1) 
 
         cartItems.set(
             items.map((item) =>
-                item.id === product.id
+                item.id === itemId
                     ? { ...item, quantity: Math.max(0, newQuantity) }
                     : item
             ).filter(item => item.quantity > 0)
@@ -69,7 +74,16 @@ export function addToCart(product: Omit<CartItem, 'quantity'>, qty: number = 1) 
             if (qty > currentStock) {
                 return { success: false, message: `Only ${currentStock} units available` };
             }
-            cartItems.set([...items, { ...product, quantity: qty, stock: currentStock }]);
+            cartItems.set([
+                ...items,
+                {
+                    ...product,
+                    id: itemId,
+                    productId,
+                    quantity: qty,
+                    stock: currentStock,
+                },
+            ]);
         }
     }
     return { success: true, message: `${product.name} added to cart` };
@@ -84,7 +98,7 @@ export function updateQuantity(productId: string, qty: number) {
     const item = items.find(i => i.id === productId);
 
     if (item) {
-        const currentStock = getEffectiveStock(productId, item.stock || 0);
+        const currentStock = getEffectiveStock(item.productId || productId, item.stock || 0);
         if (qty > currentStock) {
             return { success: false, message: `Only ${currentStock} units available` };
         }
@@ -108,8 +122,8 @@ export function completePurchase() {
     const overrides = { ...stockOverrides.get() };
 
     items.forEach(item => {
-        const currentStock = getEffectiveStock(item.id, item.stock || 0);
-        overrides[item.id] = Math.max(0, currentStock - item.quantity);
+        const currentStock = getEffectiveStock(item.productId || item.id, item.stock || 0);
+        overrides[item.productId || item.id] = Math.max(0, currentStock - item.quantity);
     });
 
     stockOverrides.set(overrides);
