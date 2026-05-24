@@ -1,22 +1,22 @@
 export const categories = [
     {
         name: "Ropa de Hombre",
-        image: "src/assets/categoria-hombre.png",
+        image: "https://i.ibb.co/3mHqMCV4/categoria-hombre.png",
         path: "/category/ropa de hombre",
     },
     {
         name: "Ropa de Mujer",
-        image: "src/assets/categoria-mujer.png",        
+        image: "https://i.ibb.co/CK5fx8qH/categoria-mujer.png",        
         path: "/category/ropa de mujer",
     },
     {
         name: "Calzado",
-        image: "src/assets/categoria-calzado.png",
+        image: "https://i.ibb.co/SD3LjJRM/categoria-calzado.png",
         path: "/category/calzado",
     },
     {
         name: "Accesorios",
-        image: "src/assets/categoria-accesorios.png",
+        image: "https://i.ibb.co/WvQQ3mW6/categoria-accesorios.png",
         path: "/category/accesorios",
     },
 ];

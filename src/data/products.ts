@@ -24,11 +24,10 @@ export const products: Product[] = [
         category: "Ropa de Hombre",
         subcategory: "camisas",
         stock: 25,
-        images: [
-            "../src/assets/shori-ketsu-1.jpg",
-            "../src/assets/shori-ketsu-2.jpg",
-            "../src/assets/shori-ketsu-3.jpg",
-            "../src/assets/shori-ketsu-4.jpg"
+        images: ["https://i.ibb.co/XZghQNbG/Shori-Ketsu-1.jpg",
+            "https://i.ibb.co/6R04y107/Shori-Ketsu-2.jpg",
+            "https://i.ibb.co/j9FvMCQJ/Shori-Ketsu-3.jpg",
+            "https://i.ibb.co/Y4C4VjPC/Shori-Ketsu-4.jpg"
         ],
         slug: "jersey-shōri-ketsu-samurai-edition",
         badge: "Premium",
@@ -50,9 +49,10 @@ export const products: Product[] = [
         subcategory: "hombre",
         stock: 12,
         images: [
-            "../src/assets/zapato1111.jpg",
-            "../src/assets/zapato1.jpg",
-            "../src/assets/zapato111.jpg",
+            "https://i.ibb.co/ycWqccWw/zapato1111.jpg",
+            "https://i.ibb.co/qMc6SBMC/zapato111.jpg",
+            "https://i.ibb.co/jkyhnhsL/zapato1.jpg",
+            "https://i.ibb.co/cSSTvHJN/zapato11.jpg"
             ],
         slug: "Tenisi-Urban-Black",
         badge: "Bestseller",
@@ -73,10 +73,10 @@ export const products: Product[] = [
         subcategory: "bikinis",
         stock: 25,
         images: [
-            "../src/assets/bikini-1.jpg",
-            "../src/assets/bikini-2.jpg",  
-            "../src/assets/bikini-3.jpg",
-            "../src/assets/bikini-4.jpg"
+            "https://i.ibb.co/39q3fsnp/bikini-2.jpg",
+            "https://i.ibb.co/8V1rBHd/bikini-1.jpg",  
+            "https://i.ibb.co/pBYBKmbj/bikini-3.jpg",
+            "https://i.ibb.co/ZRwGXvpS/bikini-4.jpg"
         ],
         slug: "bikini-bottom-wild-plum-bead-tie-edition",
         badge: "New Arrival",
@@ -90,24 +90,25 @@ export const products: Product[] = [
     },
     {
         id: "4",
-        name: "Logitech MX Master 3S",
-        title: "Logitech MX Master 3S",
+        name: "Collar de Cuentas Minerales e Hilo Trenzado – Summer Festival",
+        title: "Collar de Cuentas Minerales e Hilo Trenzado – Summer Festival",
         price: 99,
-        description: "An icon, remastered. Meet MX Master 3S – an iconic mouse remastered for ultimate tactility, performance, and flow. Feel every moment of your workflow with even more precision, tactility, and performance.",
+        description: "Un collar elegante y único, creado con cuentas minerales de alta calidad y hilo trenzado. Perfecto para agregar un toque de estilo y originalidad a tu outfit.",
         category: "Accesorios",
         stock: 50,
         images: [
-            "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?auto=format&fit=crop&w=800&q=80",
-            "https://www.mastecnologia.com.ar/images/productos/17101.png"
+            "https://i.ibb.co/HLqc3hr5/acc11.jpg",
+            "https://i.ibb.co/DP778txZ/acc111.jpg",
+            "https://i.ibb.co/603Gdmhf/acc1.jpg",
         ],
-        slug: "logitech-mx-master-3s",
+        slug: "collar-de-cuentas-minerales-e-hilo-trenzado–summer-festival",
         badge: "Essential",
         discount: 0,
         specs: [
-            { label: "DPI", value: "8000" },
-            { label: "Buttons", value: "7 Programmable" },
-            { label: "Battery", value: "Rechargeable" },
-            { label: "Connectivity", value: "Logi Bolt / BT" }
+            { label: "estilo", value: "boho-chic" },
+            { label: "Materiales", value: "metal hilo textil y abalorios" },
+            { label: "Color", value: "Multicolor" },
+            
         ]
     },
     {
@@ -120,10 +121,10 @@ export const products: Product[] = [
         subcategory: "camisas",
         stock: 18,
         images: [
-            "../src/assets/halftime-1.jpg",
-            "../src/assets/halftime-2.jpg",
-            "../src/assets/halftime-3.jpg",
-            "../src/assets/halftime-4.jpg",
+            "https://i.ibb.co/tMmpwt1Y/halftime-1.jpg",
+            "https://i.ibb.co/rKTWkxJV/halftime-2.jpg",
+            "https://i.ibb.co/TzBx608/halftime-3.jpg",
+            "https://i.ibb.co/m5s4mFVF/halftime-4.jpg",
         ],
         slug: "polo-de-malla-halftime-worldwide-edicion-vintage-sport",
         badge: "Nuevo",
@@ -145,10 +146,10 @@ export const products: Product[] = [
         subcategory: "pantalones",
         stock: 12,
         images: [
-            "../src/assets/ed-hardy-1.jpg",
-            "../src/assets/ed-hardy-2.jpg",
-            "../src/assets/ed-hardy-3.jpg",
-            "../src/assets/ed-hardy-4.jpg"
+            "https://i.ibb.co/7Jz4X5vx/ed-hardy-1.jpg",
+            "https://i.ibb.co/kV9Mks8j/ed-hardy-2.jpg",
+            "https://i.ibb.co/kV9Mks8j/ed-hardy-2.jpg",
+            "https://i.ibb.co/k6W3BvD2/ed-hardy-4.jpg"
         ],
         slug: "ed-hardy-love-kills-baggy-jorts-vintage-wash",
         discount: 10,
@@ -169,10 +170,10 @@ export const products: Product[] = [
         subcategory: "pantalones",
         stock: 15,
         images: [
-            "../src/assets/carpenter-1.jpg",
-            "../src/assets/carpenter-2.jpg",
-            "../src/assets/carpenter-3.jpg",
-            "../src/assets/carpenter-4.jpg"
+            "https://i.ibb.co/DPZ6j82v/carpenter-1.jpg",
+            "https://i.ibb.co/XrN5JBgn/carpenter-2.jpg",
+            "https://i.ibb.co/GQ3nJKGF/carpenter-3.jpg",
+            "https://i.ibb.co/845Txzqf/carpenter-4.jpg"
         ],
         slug: "carpenter-shorts-ink-splash-sand-onyx-edition",
         badge: "Nuevo",
@@ -193,10 +194,10 @@ export const products: Product[] = [
         subcategory: "pantalones",
         stock: 20,
         images: [
-            "../src/assets/obsidian-1.jpg",
-            "../src/assets/obsidian-2.jpg",
-            "../src/assets/obsidian-3.jpg",
-            "../src/assets/obsidian-4.jpg"
+            "https://i.ibb.co/5p2ZdNW/obsidian-1.jpg",
+            "https://i.ibb.co/sJcDcMk9/obsidian-2.jpg",
+            "https://i.ibb.co/Y7vMqBRn/obsidian-3.jpg",
+            "https://i.ibb.co/kghvCskR/obsidian-4.jpg"
         ],
         slug: "obsidian-relaxed-fit-urban-tailoring",
         badge: "Basico",
@@ -217,10 +218,10 @@ export const products: Product[] = [
         subcategory: "vestidos",
         stock: 15,
         images: [
-            "../src/assets/vestido-1.jpg",
-            "../src/assets/vestido-2.jpg",
-            "../src/assets/vestido-3.jpg",
-            "../src/assets/vestido-4.jpg"
+            "https://i.ibb.co/1Yyqd6WQ/vestido-1.jpg",
+            "https://i.ibb.co/vxXL8gH8/vestido-2.jpg",
+            "https://i.ibb.co/Kc8KTf8j/vestido-3.jpg",
+            "https://i.ibb.co/sdY3Ks7b/vestido-4.jpg"
         ],
         slug: "vestido-lace-indigo-cottagecore",
         badge: "AI Ready",
@@ -242,10 +243,10 @@ export const products: Product[] = [
         subcategory: "vestidos",
         stock: 22,
         images: [
-            "../src/assets/vestido-rojo-1.jpg",
-            "../src/assets/vestido-rojo-2.jpg",
-            "../src/assets/vestido-rojo-3.jpg",
-            "../src/assets/vestido-rojo-4.jpg"
+            "https://i.ibb.co/YBTPR00L/vestido-rojo-1.jpg",
+            "https://i.ibb.co/N6hWkg1g/vestido-rojo-2.jpg",
+            "https://i.ibb.co/x8BSWpTT/vestido-rojo-4.jpg",
+            "https://i.ibb.co/MDXB33Mt/vestido-rojo-3.jpg"
         ],
         slug: "vestido-antique-red-lace-trimmed-blouse",
         badge: "Smartest",
@@ -267,10 +268,10 @@ export const products: Product[] = [
         subcategory: "tops",
         stock: 28,
         images: [
-            "../src/assets/camiseta-1.jpg",
-            "../src/assets/camiseta-2.jpg",
-            "../src/assets/camiseta-3.jpg",
-            "../src/assets/camiseta-4.jpg"
+            "https://i.ibb.co/0VZTqb7y/camiseta-1.jpg",
+            "https://i.ibb.co/VY2j8mpr/camiseta-2.jpg",
+            "https://i.ibb.co/YFDjdhtQ/camiseta-3.jpg",
+            "https://i.ibb.co/QjKyv29P/camiseta-4.jpg"
         ],
         slug: "camiseta-papillon-noi",
         discount: 5,
@@ -291,10 +292,10 @@ export const products: Product[] = [
         subcategory: "hombre",
         stock: 10,
         images: [
-            "../src/assets/zapato2.jpg",
-            "../src/assets/zapato22.jpg",
-            "../src/assets/zapato222.jpg",
-            "../src/assets/zapato2222.jpg",
+            "https://i.ibb.co/Pzgj4p60/zapato2.jpg",
+            "https://i.ibb.co/6RPVfRDN/zapato22.jpg",
+            "https://i.ibb.co/QvwT4j42/zapato222.jpg",
+            "https://i.ibb.co/YTh0NzsH/zapato2222.jpg",
             ],
         slug: "zapatillas-urbanas-burdeos",
         badge: "Calzado Premium",
@@ -314,9 +315,10 @@ export const products: Product[] = [
         subcategory: "hombre",
         stock: 18,
         images: [
-            "../src/assets/zapato333.jpg",
-            "../src/assets/zapato3.jpg",
-            "../src/assets/zapato33.jpg",
+            "https://i.ibb.co/Z6Nc3prs/zapato333.jpg",
+            "https://i.ibb.co/FLx5R5xd/zapato33.jpg",
+            "https://i.ibb.co/Fk0Pn3XH/zapato3333.jpg",
+            "https://i.ibb.co/qQTSwxZ/zapato3.jpg"
             
         ],
         slug: "botas-mustard-yellow",
@@ -336,10 +338,10 @@ export const products: Product[] = [
         subcategory: "hombre",
         stock: 22,
         images: [
-            "../src/assets/zapato44.jpg",
-            "../src/assets/zapato4.jpg",
-            "../src/assets/zapato444.jpg",
-            "../src/assets/zapato4444.jpg"
+            "https://i.ibb.co/Kx69Cfvf/zapato44.jpg",
+            "https://i.ibb.co/qYyCmx87/zapato4.jpg",
+            "https://i.ibb.co/84d2LRX8/zapato4444.jpg",
+            "https://i.ibb.co/sd4yCMyq/zapato444.jpg"
         ],
         slug: "botas-distressed-brown",
         specs: [
@@ -358,10 +360,10 @@ export const products: Product[] = [
         subcategory: "pantalones",
         stock: 30,
         images: [
-            "../src/assets/blue-ash-1.jpg",
-            "../src/assets/blue-ash-2.jpg",
-            "../src/assets/blue-ash-3.jpg",
-            "../src/assets/blue-ash-4.jpg",
+            "https://i.ibb.co/XgNFznH/blue-ash-1.jpg",
+            "https://i.ibb.co/5xMbkgnc/blue-ash-2.jpg",
+            "https://i.ibb.co/vCs6YW5t/blue-ash-3.jpg",
+            "https://i.ibb.co/Wh05DZL/blue-ash-4.jpg",
         ],
         slug: "jeans-blue-ash-wide-leg-90s Revival Edition",
         badge: "Nuevo",
@@ -375,38 +377,44 @@ export const products: Product[] = [
     },
     {
         id: "16",
-        name: "Apple Magic Trackpad",
-        title: "Apple Magic Trackpad",
+        name: "Cinturón de Lona Aries – Desert Beige",
+        title: "Cinturón de Lona Aries – Desert Beige",
         price: 129,
-        description: "Wireless and rechargeable, it includes the full range of Multi-Touch gestures and Force Touch technology.",
+        description: "Un cinturón elegante y funcional, creado con lona de alta calidad y un diseño inspirado en el estilo boho-chic. Perfecto para agregar un toque de originalidad a tu outfit.",
         category: "Accesorios",
         stock: 40,
         images: [
-            "https://images.unsplash.com/photo-1522204538344-922f76ecc041?auto=format&fit=crop&w=800&q=80"
+            "https://i.ibb.co/3yHh8Y9C/acc2222.jpg",
+            "https://i.ibb.co/1Y7RsN9f/acc222.jpg",
+            "https://i.ibb.co/Kcn0nC3d/acc22.jpg",
+            "https://i.ibb.co/WvLGSk1P/acc2.jpg",
         ],
-        slug: "magic-trackpad",
+        slug: "cinturon-de-lona-aries–desert-beige",
         specs: [
-            { label: "Surface", value: "Glass" },
-            { label: "Connect", value: "Bluetooth" },
-            { label: "Color", value: "White/Black" }
+            { label: "Materiales", value: "metal hilo textil y abalorios" },
+            { label: "Color", value: "Multicolor" },
+            { label: "Estilo", value: "boho-chic" },
+
         ]
     },
     {
         id: "17",
-        name: "Samsung T7 Shield 2TB",
-        title: "Samsung T7 Shield 2TB",
-        price: 159,
-        description: "Rugged durability. Fast speeds. The T7 Shield gives you superior performance on the go, even in challenging environmental conditions.",
+        name: "Cadenas de Eslabones Griegos y Corazón – Silver Grunge",
+        title: "Cadenas de Eslabones Griegos y Corazón – Silver Grunge",
+        price: 1549,
+        description: "Un collar de cadena gruesa con eslabones inspirados en el arte griego clásico, combinados con un colgante central en forma de corazón que aporta un toque romántico y rebelde. El acabado plateado envejecido le da un aire grunge y vintage, convirtiéndolo en el accesorio perfecto para complementar cualquier look urbano o alternativo.",
         category: "Accesorios",
         stock: 100,
         images: [
-            "https://http2.mlstatic.com/D_NQ_NP_646728-CBT96610611509_102025-O.webp",
+            "https://i.ibb.co/tTTPqMff/acc333.jpg",
+            "https://i.ibb.co/QFVV419B/acc33.jpg",
+            "https://i.ibb.co/LhY3qmWX/acc3.jpg",
         ],
-        slug: "samsung-t7-shield",
+        slug: "cadenas-de-eslabones-griegos-y-corazon–silver-grunge",
         specs: [
-            { label: "Speed", value: "1000MB/s" },
-            { label: "Rating", value: "IP65" },
-            { label: "Port", value: "USB-C" }
+            { label: "Materiales", value: "Plata 925 y oro 14k" },
+            { label: "Color", value: "Plateado" },
+            { label: "Estilo", value: "Grunge" }
         ]
     },
     {
@@ -419,10 +427,10 @@ export const products: Product[] = [
         subcategory: "camisas",
         stock: 40,
         images: [
-            "../src/assets/Tirantes-1.jpg",
-            "../src/assets/Tirantes-2.jpg",
-            "../src/assets/Tirantes-3.jpg",
-            "../src/assets/Tirantes-4.jpg"
+            "https://i.ibb.co/gZTTkhX3/Tirantes-1.jpg",
+            "https://i.ibb.co/fYV4VtYF/Tirantes-2.jpg",
+            "https://i.ibb.co/35BcQjFx/Tirantes-3.jpg",
+            "https://i.ibb.co/35BcQjFx/Tirantes-3.jpg"
         ],
         slug: "ed-hardy-yellow-rose-ribbed-tank",
         discount: 25,
@@ -435,21 +443,24 @@ export const products: Product[] = [
     },
     {
         id: "19",
-        name: "Fujifilm X100V",
-        title: "Fujifilm X100V",
+        name: "Gorra Trucker con Lavado Ácido y Bordado Tribal – Acid Brown Grunge",
+        title: "Gorra Trucker con Lavado Ácido y Bordado Tribal – Acid Brown Grunge",
         price: 1399,
-        description: "The fifth iteration in Fujifilm's X100 series, blending classic dial-based design with the most advanced mobile technology.",
+        description: "Una gorra de trucker con lavado ácido y bordado tribal en tono brown grunge, ideal para complementar tu estilo urbano y alternativo.",
         category: "Accesorios",
         stock: 3,
         images: [
-            "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+            "https://i.ibb.co/DPtLjYTV/acc4444.jpg",
+            "https://i.ibb.co/N2N4YNWX/acc444.jpg",
+            "https://i.ibb.co/XfcpLhNZ/acc44.jpg",
+            
         ],
-        slug: "fujifilm-x100v",
+        slug: "gorra-trucker-con-lavado-acido-y-bordado-tribal–acid-brown-grunge",
         badge: "Limited",
         specs: [
-            { label: "Sensor", value: "APS-C" },
-            { label: "Lens", value: "23mm F2" },
-            { label: "Video", value: "4K" }
+            { label: "Materiales", value: "lino " },
+            { label: "Color", value: "cafe" },
+            { label: "Estilo", value: "Grunge" }
         ]
     },
     {
@@ -462,10 +473,10 @@ export const products: Product[] = [
         subcategory: "sueteres",
         stock: 35,
         images: [
-            "../src/assets/hoody-core-1.jpg",
-            "../src/assets/hoody-core-2.jpg",
-            "../src/assets/hoody-core-3.jpg",
-            "../src/assets/hoody-core-4.jpg"
+            "https://i.ibb.co/d4h15pkC/hoody-core-1.jpg",
+            "https://i.ibb.co/svJ69y1C/hoody-core-2.jpg",
+            "https://i.ibb.co/Pz4swvht/hoody-core-3.jpg",
+            "https://i.ibb.co/6RKfwQyT/hoody-core-4.jpg"
         ],
         slug: "hoodie-core-melange-grey-oversized-zip-up",
         badge: "Nuevo",
@@ -486,10 +497,10 @@ export const products: Product[] = [
         subcategory: "mujer",
         stock: 2,
         images: [
-            "../src/assets/zapato5.jpg",
-            "../src/assets/zapato55.jpg",
-            "../src/assets/zapato555.jpg",
-            "../src/assets/zapato5555.jpg"
+            "https://i.ibb.co/tp0S0zcd/zapato5.jpg",
+            "https://i.ibb.co/v4HKQMJp/zapato55.jpg",
+            "https://i.ibb.co/PsZMwbTx/zapato555.jpg",
+            "https://i.ibb.co/p6pB7ZLg/zapato5555.jpg"
         ],
         slug: "botas-taupe-suede",
         specs: [
@@ -508,10 +519,10 @@ export const products: Product[] = [
         subcategory: "mujer",
         stock: 37,
         images: [
-            "../src/assets/zapato6.jpg",
-            "../src/assets/zapato66.jpg",
-            "../src/assets/zapato666.jpg",
-            "../src/assets/zapato6666.jpg"
+            "https://i.ibb.co/jkmXYkFC/zapato66.jpg",
+            "https://i.ibb.co/MkCjBy9T/zapato6.jpg",
+            "https://i.ibb.co/4gtsNpsM/zapato666.jpg",
+            "https://i.ibb.co/RkB9RtYt/zapato6666.jpg"
         ],
         slug: "sandalias-thong-total-black",
         specs: [
@@ -530,10 +541,10 @@ export const products: Product[] = [
         subcategory: "mujer",
         stock: 22,
         images: [
-            "../src/assets/zapato7.jpg",
-            "../src/assets/zapato77.jpg",
-            "../src/assets/zapato777.jpg",
-            "../src/assets/zapato7777.jpg"
+            "https://i.ibb.co/GQwX6ScN/zapato7.jpg",
+            "https://i.ibb.co/tPPQ9ZxC/zapato777.jpg",
+            "https://i.ibb.co/cXLqN3gR/zapato77.jpg",
+            "https://i.ibb.co/cXLqN3gR/zapato77.jpg"
         ],
         slug: "sandalias-electric-red",
         specs: [
@@ -552,10 +563,10 @@ export const products: Product[] = [
         subcategory: "mujer",
         stock: 22,
         images: [
-            "../src/assets/zapato8.jpg",
-            "../src/assets/zapato88.jpg",
-            "../src/assets/zapato888.jpg",
-            "../src/assets/zapato8888.jpg"
+            "https://i.ibb.co/M0SKsLD/zapato888.jpg",
+            "https://i.ibb.co/j9RvLKDk/zapato88.jpg",
+            "https://i.ibb.co/JFsJWKrj/zapato8.jpg",
+            "https://i.ibb.co/gMQgXssx/zapato8888.jpg"
         ],
         slug: "sandalias-nude-elegance",
         specs: [
@@ -574,10 +585,10 @@ export const products: Product[] = [
         subcategory: "mujer",
         stock: 22,
         images: [
-            "../src/assets/zapato9.jpg",
-            "../src/assets/zapato99.jpg",
-            "../src/assets/zapato999.jpg",
-            "../src/assets/zapato9999.jpg"
+            "https://i.ibb.co/B5Z5ND8v/zapato9999.jpg",
+            "https://i.ibb.co/Vczc9Kcc/zapato9.jpg",
+            "https://i.ibb.co/YBRc9xcv/zapato99.jpg",
+            "https://i.ibb.co/Dg8qQfV8/zapato999.jpg"
         ],
         slug: "botas-slouchy-desert-taupe",
         specs: [
@@ -596,10 +607,10 @@ export const products: Product[] = [
         subcategory: "faldas",
         stock: 18,
         images: [
-            "../src/assets/falda-1.jpg",
-            "../src/assets/falda-2.jpg",
-            "../src/assets/falda-3.jpg",
-            "../src/assets/falda-4.jpg"
+            "https://i.ibb.co/tMrB8nQm/falda-1.jpg",
+            "https://i.ibb.co/FqY8z2jP/falda-2.jpg",
+            "https://i.ibb.co/Y4hMp4Zj/falda-3.jpg",
+            "https://i.ibb.co/xq37HWqc/falda-4.jpg"
         ],
         slug: "falda-midi-blanca-plisada-casual",
         discount: 15,
@@ -620,10 +631,10 @@ export const products: Product[] = [
         subcategory: "faldas",
         stock: 24,
         images: [
-            "../src/assets/falda-negra-1.jpg",
-            "../src/assets/falda-negra-2.jpg",
-            "../src/assets/falda-negra-3.jpg",
-            "../src/assets/falda-negra-4.jpg"
+            "https://i.ibb.co/JWY4PDDF/falda-negra-1.jpg",
+            "https://i.ibb.co/Cpv6f0r7/falda-negra-2.jpg",
+            "https://i.ibb.co/yc9RHhVj/falda-negra-3.jpg",
+            "https://i.ibb.co/hFF7JgzS/falda-negra-4.jpg"
         ],
         slug: "falda-mini-de-tiro-bajo---estampado-polka-dot",
         specs: [
@@ -643,10 +654,10 @@ export const products: Product[] = [
         subcategory: "faldas",
         stock: 45,
         images: [
-            "../src/assets/falda-azul-1.jpg",
-            "../src/assets/falda-azul-2.jpg",
-            "../src/assets/falda-azul-3.jpg",
-            "../src/assets/falda-azul-4.jpg"
+            "https://i.ibb.co/Cs57gs0z/falda-azul-1.jpg",
+            "https://i.ibb.co/ZzMn17P5/falda-azul-2.jpg",
+            "https://i.ibb.co/wZWJLqKZ/falda-azul-3.jpg",
+            "https://i.ibb.co/2YdLCgdQ/falda-azul-4.jpg"
         ],
         slug: "falda-mini-icy-blue-de-lentejuelas",
         specs: [
@@ -666,10 +677,10 @@ export const products: Product[] = [
         subcategory: "bikinis",
         stock: 35,
         images: [
-            "../src/assets/bikini-2-1.jpg",
-            "../src/assets/bikini-2-2.jpg",
-            "../src/assets/bikini-2-3.jpg",
-            "../src/assets/bikini-2-4.jpg"
+            "https://i.ibb.co/zWh68qqF/bikini-2-1.jpg",
+            "https://i.ibb.co/YFHqCQ6m/bikini-2-2.jpg",
+            "https://i.ibb.co/c9WXF4Y/bikini-2-3.jpg",
+            "https://i.ibb.co/qYxkVsL3/bikini-2-4.jpg"
         ],
         slug: "top-de-bikini-triangular-con-cordones---estampado-camuflaje",
         specs: [
@@ -679,6 +690,500 @@ export const products: Product[] = [
             { label: "Cuidado", value: "Lavar a mano con jabón suave después de cada uso; secar a la sombra" }
         ]
     },
+    {
+        id: "30",
+        name: "Chaqueta de Plumas Puffer Rosa Pastel con Capucha",
+        title: "Chaqueta de Plumas Puffer Rosa Pastel con Capucha",
+        price: 1314,
+        description: "Una chaqueta cálida y moderna con un toque pastel. Esta chaqueta de plumas puffer presenta un diseño elegante con capucha, ideal para mantenerse abrigado en climas fríos sin sacrificar el estilo.",
+        category: "Ropa de Hombre",
+        subcategory: "sueteres",
+        stock: 25,
+        images: [
+            "https://i.ibb.co/p609rY5B/hombre666.jpg",
+            "https://i.ibb.co/zTRHvGYd/hombre6666.jpg",
+            "https://i.ibb.co/3YGwJMyQ/hombre66.jpg",
+            "https://i.ibb.co/21B3ddjs/hombre6.jpg"
+        ],
+        slug: "chaqueta-de-plumas-puffer-rosa-pastel-con-capucha",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "Plumas de pato" },
+            { label: "Corte", value: "Regular" },
+            { label: "Cuello", value: "Con capucha" },
+            { label: "Costuras", value: "Doblez" }
+        ]
+    },
+    {
+        id: "31",
+        name: "Chaqueta de Algodón Lavado con Tachuelas Bershka – Dark Grey",
+        title: "Chaqueta de Algodón Lavado con Tachuelas Bershka – Dark Grey",
+        price: 490,
+        description: "Estética motera con la comodidad del algodón. Rompe con lo convencional gracias a esta chaqueta ligera de Bershka. Reuniendo la estructura de las clásicas cazadoras de estilo western o biker pero confeccionada en un tejido suave de lona de algodón, esta prenda destaca por su hilera de tachuelas plateadas en el pecho. Es la opción definitiva para darle un aire cañero e informal a cualquier look de camiseta blanca y vaqueros.",
+        category: "Ropa de Hombre",
+        subcategory: "Sueteres",
+        stock: 35,
+        images: [
+            "https://i.ibb.co/MDF9hCG2/hombre777.jpg",
+            "https://i.ibb.co/JjmHJYtH/hombre7777.jpg",
+            "https://i.ibb.co/Qvhgcssq/hombre77.jpg",
+            "https://i.ibb.co/k6WG1KVd/hombre7.jpg"
+        ],
+        slug: "chaqueta-de-algodon-lavado-con-tachuelas-bershka–dark-grey",
+        specs: [
+            { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
+            { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
+            { label: "Forro", value: "Doble forro interior para evitar transparencias" },
+            { label: "Cuidado", value: "Lavar a mano con jabón suave después de cada uso; secar a la sombra" }
+        ]
+    },
+    {
+        id: "32",
+        name: "Camiseta Ringer Retro Brasil – Canary Yellow",
+        title: "Camiseta Ringer Retro Brasil – Canary Yellow",
+        price: 14123,
+        description: "",
+        category: "Ropa de Hombre",
+        subcategory: "camisas",
+        stock: 25,
+        images: [
+            "https://i.ibb.co/WpjtvKLw/hombre888.jpg",
+            "https://i.ibb.co/YBm5vMTr/hombre8888.jpg",
+            "https://i.ibb.co/gZxzDr7d/hombre88.jpg",
+            "https://i.ibb.co/rRYjdhZv/hombre8.jpg"
+        ],
+        slug: "camiseta-ringer-retro-brasil–canary-yellow",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "100% Algodón" },
+            { label: "Corte", value: "Regular" },
+            { label: "Cuello", value: "Manga corta" },
+            { label: "Costuras", value: "Doblez" }
+        ]
+    },
+    {
+        id: "33",
+        name: "Gorro Beanie de Punto con Gráfico Gótico – Cyber Black & Red",
+        title: "Gorro Beanie de Punto con Gráfico Gótico – Cyber Black & Red",
+        price: 490,
+        description: "Un gorro de punto con un diseño gráfico",
+        category: "Accesorios",
+        stock: 35,
+        images: [
+            "https://i.ibb.co/27Yc1rxq/acc555.jpg",
+            "https://i.ibb.co/jPtSfJJ0/acc55.jpg",
+            "https://i.ibb.co/nMvVM9jd/acc5.jpg",
+        ],
+        slug: "gorro-beanie-de-punto-con-grafico-gotico–cyber-black-&-red",
+        specs: [
+            { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
+            { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
+            { label: "Forro", value: "Doble forro interior para evitar transparencias" },
+            { label: "Cuidado", value: "Lavar a mano con jabón suave después de cada uso; secar a la sombra" }
+        ]
+    },
+    {
+        id: "34",
+        name: "Cartera de Mano con Correa Vaquera Desgastada – Denim Grunge",
+        title: "Cartera de Mano con Correa Vaquera Desgastada – Denim Grunge",
+        price: 14123,
+        description: "El accesorio definitivo para llevar tus esenciales con actitud. Súmate a la fiebre del denim sobre denim con esta cartera estructurada de Bershka. Confeccionada en lona vaquera con un lavado vintage muy marcado y un diseño compacto, es la pieza perfecta para quienes buscan un accesorio ligero, práctico y con esa estética desenfadada de los primeros años de los 2000. Llévala sujeta de la mano o cruzada para un look de calle impecable.",
+        category: "Accesorios",
+        stock: 252,
+        images: [
+            "https://i.ibb.co/dJ1zNJV9/acc66.jpg",
+            "https://i.ibb.co/0pN1M31P/acc6.jpg",
+            "https://i.ibb.co/ns83BqXW/acc666.jpg"
+           
+        ],
+        slug: "cartera-de-mano-con-correa-vaquera-desgastada–denim-grunge",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "jeans" },
+            { label: "Corte", value: "Compacto" },
+        
+            { label: "Costuras", value: "Doblez" }
+        ]
+    },
+    {
+        id: "35",
+        name: "Gorra de Béisbol Bicolor Distressed 98 – Retro Lilac & Black",
+        title: "Gorra de Béisbol Bicolor Distressed 98 – Retro Lilac & Black",
+        price: 490,
+        description: "Una gorra de béisbol con un diseño bicolor en tonos lila",
+        category: "Accesorios",
+        stock: 35,
+        images: [
+            "https://i.ibb.co/ytV6jKw/acc777.jpg",
+            "https://i.ibb.co/rfRsbSXv/acc77.jpg",
+            
+        ],
+        slug: "gorra-de-béisbol-bicolor-distressed-98–retro-lilac-&-black",
+        specs: [
+            { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
+            { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
+            { label: "Forro", value: "Doble forro interior para evitar transparencias" },
+            { label: "Cuidado", value: "Lavar a mano con jabón suave después de cada uso; secar a la sombra" }
+        ]
+    },
+    {
+        id: "36",
+        name: "Gorra de Béisbol con Parches y Estrellas – Chocolate Y2K Sport",
+        title: "Gorra de Béisbol con Parches y Estrellas – Chocolate Y2K Sport",
+        price: 490,
+        description: "Una gorra de béisbol con un diseño con parches y estrellas en tono chocolate",
+        category: "Accesorios",
+
+        stock: 25,
+        images: [
+            "https://i.ibb.co/SjKbBSS/acc88.jpg",
+            "https://i.ibb.co/nsQJccqz/acc888.jpg",
+            "https://i.ibb.co/QvFXM3Vy/acc8.jpg",
+        ],
+        slug: "gorra-de-béisbol-con-parches-y-estrellas–chocolate-y2k-sport",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
+            { label: "Corte", value: "Lazos ajustables en cuello y espalda" },
+            { label: "Cuello", value: "Doble forro interior para evitar transparencias" },
+            { label: "Costuras", value: "Lavar a mano con jabón suave después de cada uso; secar a la sombra" }
+        ]
+    },
+    {
+        id: "37",
+        name: "Gorra de Béisbol Brasil Retro 10 – Canary Yellow & Green",
+        title: "Gorra de Béisbol Brasil Retro 10 – Canary Yellow & Green",
+        price: 490,
+        description: "Una gorra de béisbol con un diseño retro en tonos amarillo canario y verde",
+        category: "Accesorios",
+        stock: 35,
+        images: [
+            "https://i.ibb.co/QVwrxYM/acc999.jpg",
+            "https://i.ibb.co/FkqB8r81/acc9999.jpg",
+            "https://i.ibb.co/rfkT3w4W/acc99.jpg",
+            "https://i.ibb.co/dwr74jpw/acc9.jpg"
+        ],
+        slug: "gorra-de-béisbol-brasil-retro-10–canary-yellow-&-green",
+        specs: [
+            { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
+            { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
+            { label: "Forro", value: "Doble forro interior para evitar transparencias" },
+            { label: "Cuidado", value: "Lavar a mano con jabón suave después de cada uso; secar a la sombra" }
+        ]
+    },
+    {
+        id: "38",
+        name: "Sobrecamisa de Pana Lavada Bershka – Caramel Vintage",
+        title: "Sobrecamisa de Pana Lavada Bershka – Caramel Vintage",
+        price: 1314,
+        description: "La textura del otoño en clave urbana. Dale un aire nostálgico, cálido y lleno de estilo a tus capas de diario con esta sobrecamisa de Bershka. Confeccionada en una pana de canalé clásico con un sutil efecto lavado, esta prenda tiene el peso ideal para usar abierta sobre una camiseta básica o abotonada como pieza principal. Su tono caramelo tostado es un básico indiscutible que eleva cualquier vaquero o pantalón cargo.",
+        category: "Ropa de Hombre",
+        subcategory: "sueteres",
+        stock: 25,
+        images: [
+            "https://i.ibb.co/0VZK5VxW/hombre555.jpg",
+            "https://i.ibb.co/RT60R8kx/hombre5555.jpg",
+            "https://i.ibb.co/VYy5PHQD/hombre55.jpg",
+            "https://i.ibb.co/B5VSBGV2/hombre5.jpg"
+        ],
+        slug: "sobrecamisa-de-pana-lavada-bershka–caramel-vintage",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "paño de canalé" },
+            { label: "Corte", value: "clásico" },
+            { label: "Cuello", value: "redondo" },
+            { label: "Costuras", value: "doblez" }
+        ]
+    },
+    {
+        id: "39",
+        name: "Cortavientos Técnico con Capucha Bershka – Stealth Black",
+        title: "Cortavientos Técnico con Capucha Bershka – Stealth Black",
+        price: 49220,
+        description: "El básico infalible del gorpcore urbano. Domina los días grises y el viento con este cortavientos minimalista de Bershka. Diseñado bajo una estética puramente funcional y técnica, este chubasquero ligero se convierte en la capa exterior perfecta para cualquier conjunto de streetwear.",
+        category: "Ropa de Hombre",
+        subcategory: "sueteres",
+        stock: 35,
+        images: [
+            "https://i.ibb.co/JW3Xy6R5/hombre444.jpg",
+            "https://i.ibb.co/Q3TBJmJk/hombre4444.jpg",
+            "https://i.ibb.co/TBvt0t60/hombre44.jpg",
+            "https://i.ibb.co/MQVFthc/hombre4.jpg"
+        ],
+        slug: "cortavientos-técnico-con-capucha-bershka–stealth-black",
+        specs: [
+            { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
+            { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
+            { label: "Forro", value: "Doble forro interior para evitar transparencias" },
+            { label: "Cuidado", value: "Lavar a mano con jabón suave después de cada uso; secar a la sombra" }
+        ]
+    },
+    {
+        id: "40",
+        name: "Chaqueta Vaquera Rígida con Pespunte Contraste Bershka – Raw Indigo",
+        title: "Chaqueta Vaquera Rígida con Pespunte Contraste Bershka – Raw Indigo",
+        price: 1213,
+        description: "",
+        category: "Ropa de Hombre",
+        subcategory: "sueteres",
+        stock: 25,
+        images: [
+            "https://i.ibb.co/zWd7KNjm/hombre333.jpg",
+            "https://i.ibb.co/mVzddQ5t/hombre3333.jpg",
+            "https://i.ibb.co/mVzddQ5t/hombre3333.jpg",
+            "https://i.ibb.co/DHSyzzMv/hombre33.jpg"
+        ],
+        slug: "chaqueta-vaquera-rigida-con-pespunte-contraste-bershka–raw-indigo",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "vaquera rígida" },
+            { label: "Corte", value: "deportivo" },
+            { label: "Cuello", value: "redondo" },
+            { label: "Costuras", value: "doblez" }
+        ]
+    },
+    {
+        id: "41",
+        name: "Cortavientos Técnico Block Color – Crimson & Black",
+        title: "Cortavientos Técnico Block Color – Crimson & Black",
+        price: 490,
+        description: "Inspiración retro, rendimiento urbano. Dale un subidón de energía a tus conjuntos con esta chaqueta cortavientos técnica de corte deportivo. Su dinámico diseño de paneles geométricos combina una estética puramente noventera con la ligereza que exige el streetwear actual. Perfecta para un look de diario dinámico con vaqueros oscuros o para armar un chándal completo ultracómodo.",
+        category: "Ropa de Hombre",
+        subcategory: "sueteres",
+        stock: 35,
+        images: [
+            "https://i.ibb.co/67kgr3Pc/hombre222.jpg",
+            "https://i.ibb.co/S4rK1n0g/hombre2222.jpg",
+            "https://i.ibb.co/Y4VKQyBT/hombre22.jpg",
+            "https://i.ibb.co/BH6ryPGX/hombre2.jpg"
+        ],
+        slug: "top-de-bikini-triangular-con-cordones---estampado-camuflaje",
+        specs: [
+            { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
+            { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
+            { label: "Forro", value: "Doble forro interior para evitar transparencias" },
+            { label: "Cuidado", value: "Lavar a mano con jabón suave después de cada uso; secar a la sombra" }
+        ]
+    },
+    {
+        id: "42",
+        name: "Cazadora Corta Tie-Dye Arena con Capucha",
+        title: "Cazadora Corta Tie-Dye Arena con Capucha",
+        price: 1222,
+        description: "chaqueta o cazadora ligera de estilo deportivo y corte cropped (corto), con capucha y un diseño de estampado efecto lavado o tie-dye en tonos neutros (arena/beige y gris claro).",
+        category: "Ropa de Hombre",
+        subcategory: "sueteres",
+        stock: 25,
+        images: [
+            "https://i.ibb.co/nqGdRNzn/hombre111.jpg",
+            "https://i.ibb.co/gMdxdcD2/hombre1111.jpg",
+            "https://i.ibb.co/hxkLyDdm/Hombre1.jpg",
+            "https://i.ibb.co/FL1PXBcX/hombre11.jpg"
+        ],
+        slug: "cazadora-corta-tie-dye-arena-con-capucha",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "lino" },
+            { label: "estilo", value: "deportivo" },
+            { label: "Cuello", value: "redondo" },
+            { label: "Costuras", value: "doblez" }
+        ]
+    },
+    {
+        id: "43",
+        name: "Gorra Trucker de Lona Lavada Ed Hardy – Vintage Tattoo Grey",
+        title: "Gorra Trucker de Lona Lavada Ed Hardy – Vintage Tattoo Grey",
+        price: 1222,
+        description: "Una gorra trucker con un diseño de lona lavada y un gráfico de tatuaje vintage en tonos grises.",
+        category: "Accesorios",
+
+        stock: 0,
+        images: [
+            "https://i.ibb.co/G4hBcq0C/ac1111.jpg",
+            "https://i.ibb.co/N6VnYrFq/ac111.jpg",
+            "https://i.ibb.co/zTncFnzK/ac11.jpg",
+            "https://i.ibb.co/HDN4ZSt4/ac1.jpg"
+        ],
+        slug: "gorra-trucker-de-lona-lavada-ed-hardy–vintage-tattoo-grey",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "lona de algodón lavada" },
+            { label: "Corte", value: "Trucker con malla trasera" },
+            { label: "Gráfico", value: "Tatuaje vintage en tonos grises" },
+            { label: "Ajuste", value: "Cierre snapback ajustable" }
+        ]
+    },
+    {
+        id: "44",
+        name: "Gafas de Sol de Pantalla Envolvente – Cyber Y2K Silver & Grey",
+        title: "Gafas de Sol de Pantalla Envolvente – Cyber Y2K Silver & Grey",
+        price: 1222,
+        description: "Gafas de sol con pantalla envolvente y diseño de estilo cyber y2k en tonos plateados y grises.",
+        category: "Accesorios",
+
+        stock: 25,
+        images: [
+            "https://i.ibb.co/PzQ4RzdV/ac2222.jpg",
+            "https://i.ibb.co/Mk1sZnDx/ac222.jpg",
+            "https://i.ibb.co/jPLt3LqD/ac22.jpg",
+            "https://i.ibb.co/BHbXr4h6/ac2.jpg"
+        ],
+        slug: "gafas-de-sol-de-pantalla-envolvente–cyber-y2k-silver-&-grey",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "color", value: "gris ahumado" },
+            { label: "estilo", value: "Y2K" },
+            { label: "tipo", value: "Proteccion UV" },
+        ]
+    },
+    {
+        id: "45",
+        name: "Gafas de Sol de Pantalla Envolvente Retro – Amber & Chocolate Tech",
+        title: "Gafas de Sol de Pantalla Envolvente Retro – Amber & Chocolate Tech",
+        price: 1222,
+        description: "Gafas de sol con pantalla envolvente y diseño de estilo retro en tonos ámbar y chocolate.",
+        category: "Accesorios",
+        stock: 25,
+        images: [
+            "https://i.ibb.co/PG5Kg40J/ac3333.jpg",
+            "https://i.ibb.co/3yzg0jYd/ac333.jpg",
+            "https://i.ibb.co/JWkz7fTs/ac33.jpg",
+            "https://i.ibb.co/KzRk0Sxk/ac3.jpg"
+        ],
+        slug: "gafas-de-sol-de-pantalla-envolvente–retro-amber-&-chocolate-tech",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "color", value: "ámbar" },
+            { label: "estilo", value: "retro" },
+            { label: "tipo", value: "Proteccion UV" },
+        ]
+    },
+    {
+        id: "46",
+        name: "Pendientes de Aro Abombados – Silver Crescent Pack",
+        title: "Pendientes de Aro Abombados – Silver Crescent Pack",
+        price: 1222,
+        description: "Pendientes de aro abombados con diseño de luna creciente en tonos plateados.",
+        category: "Accesorios",
+
+        stock: 25,
+        images: [
+            "https://i.ibb.co/nNXJdg6L/ac444.jpg",
+            "https://i.ibb.co/1G9dKyFX/ac44.jpg",
+            "https://i.ibb.co/QvGDC6rH/ac4.jpg",
+        ],
+        slug: "pendientes-de-aro-abombados–silver-crescent-pack",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Color", value: "plateado" },
+            { label: "estilo", value: "eléctrico" },
+            { label: "tipo", value: "pendientes" },
+        ]
+    },
+    {
+        id: "47",
+        name: "Joyas Variadas Y2K – Cyber Star & Heart Jewelry Pack",
+        title: "Joyas Variadas Y2K – Cyber Star & Heart Jewelry Pack",
+        price: 1222,
+        description: "joyas variadas con diseño de estilo Y2K en tonos eléctricos.",
+        category: "Accesorios",
+
+        stock: 25,
+        images: [
+            "https://i.ibb.co/fV1dRqd6/ac55.jpg",
+            "https://i.ibb.co/G4XDVrwb/ac555.jpg",
+            "https://i.ibb.co/S4BMb8ZL/ac5.jpg",
+        ],
+        slug: "joyas-variadas-y2k–cyber-star-&-heart-jewelry-pack",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "Metal" },
+            { label: "estilo", value: "Y2K" },
+            { label: "tipo", value: "joyas" },
+        ]
+    },
+    {
+        id: "48",
+        name: "Aretes de Flor Tropical Hibisco – Summer Hibiscus Studs",
+        title: "Aretes de Flor Tropical Hibisco – Summer Hibiscus Studs",
+        price: 1222,
+        description: "Aretes de flor tropical hibisco con diseño de estilo veraniego.",
+        category: "Accesorios",
+        stock: 25,
+        images: [
+            "https://i.ibb.co/7dz1hw81/ac666.jpg",
+            "https://i.ibb.co/p6vrpNSq/ac66.jpg",
+            "https://i.ibb.co/VpCtfpJj/ac6.jpg",
+            
+        ],
+        slug: "aretes-de-flor-tropical-hibisco–summer-hibiscus-studs",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "Plata" },
+            { label: "estilo", value: "veraniego" },
+            { label: "Color", value: "rojo" },
+        ]
+    },
+    {
+        id: "49",
+        name: "Pulseras de Eslabones Plateadas – Cyber Heart Bracelet Pack",
+        title: "Pulseras de Eslabones Plateadas – Cyber Heart Bracelet Pack",
+        price: 1222,
+        description: "Pulseras de eslabones plateadas con diseño de estilo cyberpunk.",
+        category: "Accesorios",
+        stock: 25,
+        images: [
+            "https://i.ibb.co/jk5BMGvb/ac7.jpg",
+            "https://i.ibb.co/Vp5g7XWX/ac777.jpg",
+            "https://i.ibb.co/N6GR4djs/ac77.jpg",
+        ],
+        slug: "pulseras-de-eslabones-plateadas–cyber-heart-bracelet-pack",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "Resina" },
+            { label: "estilo", value: "cyberpunk" },
+            { label: "Color", value: "mixto" },
+        ]
+    },
+    {
+        id: "50",
+        name: "Pulseras Rígidas Minimalistas – Silver Chunky Bangles",
+        title: "Pulseras Rígidas Minimalistas – Silver Chunky Bangles",
+        price: 1222,
+        description: "Pulseras rígidas minimalistas con diseño de estilo cyberpunk.",
+        category: "Accesorios",
+        stock: 25,
+        images: [
+            "https://i.ibb.co/ksHLpfK9/ac88.jpg",
+            "https://i.ibb.co/1Y3W2v2n/ac888.jpg",
+            "https://i.ibb.co/7xXPP6W4/ac8.jpg",
+        ],
+        slug: "pulseras-rígidas-minimalistas–silver-chunky-bangles",
+        badge: "Premium",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "Plata" },
+            { label: "estilo", value: "cyberpunk" },
+            { label: "Color", value: "plateado" },
+        ]
+    },
+
+
+    
 ];
 
 export const getProductBySlug = (slug: string) => products.find(p => p.slug === slug);
