@@ -47,6 +47,7 @@ export const products: Product[] = [
         price: 399,
         description: "Un calzado deportivo de inspiración urbana que combina la estética minimalista con detalles modernos. Con una parte superior",
         category: "Calzado",
+        subcategory: "hombre",
         stock: 12,
         images: [
             "../src/assets/zapato1111.jpg",
@@ -287,6 +288,7 @@ export const products: Product[] = [
         price: 549,
         description: "Eleva tu estilo diario. Dale un giro audaz a tus looks casuales con estas zapatillas urbanas de Bershka. Con un imponente tono burdeos y una silueta de inspiración retro, este par es el equilibrio perfecto entre comodidad urbana y tendencia absoluta.",
         category: "Calzado",
+        subcategory: "hombre",
         stock: 10,
         images: [
             "../src/assets/zapato2.jpg",
@@ -309,6 +311,7 @@ export const products: Product[] = [
         price: 429,
         description: "La resistencia que define tu estilo. Prepárate para el otoño y el invierno con estas robustas botas de estilo industrial. Inspiradas en un clásico atemporal, estas botas no solo ofrecen un look imponente y urbano, sino que están construidas para durar.",
         category: "Calzado",
+        subcategory: "hombre",
         stock: 18,
         images: [
             "../src/assets/zapato333.jpg",
@@ -330,6 +333,7 @@ export const products: Product[] = [
         price: 249,
         description: "El clásico del festival que necesitas todo el año. Súmate a la tendencia western con estas impresionantes botas estilo cowboy. Con un acabado texturizado que imita la piel desgastada y un bordado artesanal clásico, este par es la pieza declaración definitiva.",
         category: "Calzado",
+        subcategory: "hombre",
         stock: 22,
         images: [
             "../src/assets/zapato44.jpg",
@@ -479,6 +483,7 @@ export const products: Product[] = [
         price: 1114,
         description: "Estilo rebelde con un toque sofisticado. Eleva tus looks de temporada con estas espectaculares botas altas de estética biker.",
         category: "Calzado",
+        subcategory: "mujer",
         stock: 2,
         images: [
             "../src/assets/zapato5.jpg",
@@ -500,6 +505,7 @@ export const products: Product[] = [
         price: 2749,
         description: "Vuelven los 2000 con su máxima altura. Lanza tus looks de verano al siguiente nivel con estas sandalias de dedo con súper plataforma de Bershka.",
         category: "Calzado",
+        subcategory: "mujer",
         stock: 37,
         images: [
             "../src/assets/zapato6.jpg",
@@ -521,6 +527,7 @@ export const products: Product[] = [
         price: 2549,
         description: "Pura actitud en cada paso. Rompe moldes esta temporada con las sandalias de tacón tipo thong de Bershka. Fusionando la nostalgia de los años 2000 con un acabado futurista deslumbrante, este par en rojo metalizado es la dosis de magnetismo que tus conjuntos de noche necesitan.",
         category: "Calzado",
+        subcategory: "mujer",
         stock: 22,
         images: [
             "../src/assets/zapato7.jpg",
@@ -542,6 +549,7 @@ export const products: Product[] = [
         price: 2549,
         description: "El efecto invisible que alarga tus piernas. Consigue un look sofisticado, minimalista y de pasarela con estas sandalias de tacón en tono nude. La combinación de las tiras de vinilo transparente con la suela neutra crea una ilusión óptica que estiliza la silueta por completo, convirtiéndolas en el comodín definitivo para eventos formales, cócteles o una noche de fiesta.",
         category: "Calzado",
+        subcategory: "mujer",
         stock: 22,
         images: [
             "../src/assets/zapato8.jpg",
@@ -563,6 +571,7 @@ export const products: Product[] = [
         price: 2491,
         description: "",
         category: "Calzado",
+        subcategory: "mujer",
         stock: 22,
         images: [
             "../src/assets/zapato9.jpg",

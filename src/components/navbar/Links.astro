@@ -6,14 +6,35 @@ const categorias = [
     {
         name: "Hombre",
         href: "/category/ropa de hombre",
+        subcategories: [
+            { name: "Todo", href: "/category/ropa de hombre" },
+            { name: "Camisas", href: "/category/ropa de hombre?sub=camisas" },
+            { name: "Pantalones", href: "/category/ropa de hombre?sub=pantalones" },
+            { name: "Sudaderas", href: "/category/ropa de hombre?sub=sueteres" },
+        ],
         
     },
     {
         name: "Mujer",
         href: "/category/ropa de mujer",
+        subcategories: [
+            { name: "Todo", href: "/category/ropa de mujer" },
+            { name: "Tops", href: "/category/ropa de mujer?sub=tops" },
+            { name: "Vestidos", href: "/category/ropa de mujer?sub=vestidos" },
+            { name: "Faldas", href: "/category/ropa de mujer?sub=faldas" },
+            { name: "Bikinis", href: "/category/ropa de mujer?sub=bikinis" },
+        ],
         
     },
-    { name: "Calzado", href: "/category/calzado" },
+    { 
+        name: "Calzado", 
+        href: "/category/calzado",
+        subcategories: [
+            { name: "Todo", href: "/category/calzado" },
+            { name: "Hombre", href: "/category/calzado?sub=hombre" },
+            { name: "Mujer", href: "/category/calzado?sub=mujer" },
+        ],
+    },
     { name: "Accessorios", href: "/category/accesorios" },
 ];
 ---
