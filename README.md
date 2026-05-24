@@ -1,32 +1,3 @@
-#  E-commer-Astro
-
-E-commerce template built with **Astro 5**, **React 19**, and **Tailwind CSS 4**. Designed for speed, SEO, and specific aesthetic appeal, featuring a fully functional shopping cart, favorites system, blog, and more.
-
-![astroEcommers](https://github.com/user-attachments/assets/dff02a23-5c09-4737-85a5-60d00fea14af)
-
-
-## ✨ Features
-
-- **⚡ Blazing Fast**: Built on top of Astro's next-gen island architecture.
-- **🎨 Modern Design**: Styled with Tailwind CSS 4 and DaisyUI 5 for a premium look and feel.
-- **🛒 Shopping Cart**: Fully functional cart with persistent state using Nanostores.
-- **❤️ Whishlist/Favorites**: Save your favorite items with persistent local storage.
-- **📦 Product Catalog**: Dynamic product listing with category filtering.
-- **📝 Blog Section**: Integrated blog for content marketing and SEO.
-- **📱 Fully Responsive**: Mobile-first design that looks great on all devices.
-- **🔍 Search**: Instant product search functionality.
-- **� Checkout UI**: polished checkout page interface.
-- **🔔 Notifications**: Toast notifications for user interactions (Sonner).
-- **🖼️ Carousels**: Interactive product sliders using Swiper.
-
-## 🛠️ Tech Stack
-
-- **Framework**: [Astro 5.0](https://astro.build/)
-- **UI Integrations**: [React 19](https://react.dev/)
-- **Styling**: [Tailwind CSS 4.0](https://tailwindcss.com/) & [DaisyUI 5](https://daisyui.com/)
-- **State Management**: [Nanostores](https://github.com/nanostores/nanostores)
-- **Icons**: [Iconify](https://iconify.design/) (Lucide & MDI)
-- **Animations**: CSS Transitions & Micro-interactions
 
 ## 📂 Project Structure
 
@@ -54,12 +25,6 @@ E-commerce template built with **Astro 5**, **React 19**, and **Tailwind CSS 4**
 ```
 
 ## 🚀 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/E-commer-Astro.git
-   cd E-commer-Astro
-   ```
 
 2. **Install dependencies**
    ```bash
