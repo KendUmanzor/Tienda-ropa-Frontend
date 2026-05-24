@@ -64,25 +64,27 @@ export const products: Product[] = [
     },
     {
         id: "3",
-        name: "iPhone 15 Pro Max",
-        title: "iPhone 15 Pro Max",
-        price: 1199,
-        description: "Forged in titanium. Featuring the groundbreaking A17 Pro chip, a customizable Action button, and the most powerful iPhone camera system ever. Experience the next level of mobile technology.",
+        name: "Bikini Bottom 'Wild Plum' - Bead & Tie Edition",
+        title: "Bikini Bottom 'Wild Plum' - Bead & Tie Edition",
+        price: 450,
+        description: "Una calzoneta de bikini de corte clásico con amarraderos laterales ajustables. Destaca por su color púrpura profundo (Plum) y los detalles de cuentas artesanales en los extremos de los cordones, que aportan un aire bohemio y sofisticado. Es una pieza versátil diseñada para ofrecer un ajuste personalizado y cómodo, ideal para lucir tanto en la playa como en la piscina con un estilo único y elegante.",
         category: "Ropa de Mujer",
-        subcategory: "iphone",
-        stock: 0,
+        subcategory: "bikinis",
+        stock: 25,
         images: [
-            "https://i.blogs.es/f15f0b/img_2033/650_1200.jpeg",
-            "https://images.unsplash.com/photo-1678652197831-2d180705cd2c?auto=format&fit=crop&w=800&q=80"
+            "../src/assets/bikini-1.jpg",
+            "../src/assets/bikini-2.jpg",  
+            "../src/assets/bikini-3.jpg",
+            "../src/assets/bikini-4.jpg"
         ],
-        slug: "iphone-15-pro-max",
+        slug: "bikini-bottom-wild-plum-bead-tie-edition",
         badge: "New Arrival",
-        discount: 0,
+        discount: 15,
         specs: [
-            { label: "Chip", value: "A17 Pro" },
-            { label: "Camera", value: "48MP Main" },
-            { label: "Material", value: "Titanium" },
-            { label: "Size", value: "6.7-inch" }
+            { label: "Material", value: "82% Poliamida y 18% Elastano con acabado mate y protección UV" },
+            { label: "Corte", value: "Cobertura media con tiro bajo y laterales regulable" },
+            { label: "Costuras", value: "Elásticas invisibles que no marcan la piel" },
+            { label: "Forro", value: "Doble forro interno en el mismo color para evitar transparencias y mejorar el soporte" }
         ]
     },
     {
@@ -206,65 +208,76 @@ export const products: Product[] = [
     },
     {
         id: "9",
-        name: "Samsung Galaxy S24 Ultra",
-        title: "Samsung Galaxy S24 Ultra",
-        price: 1299,
-        description: "Unleash your creativity, productivity, and possibilities. With a built-in S Pen and the most powerful processor yet.",
+        name: "Vestido 'Lace & Indigo' - Cottagecore Edition",
+        title: "Vestido 'Lace & Indigo' - Cottagecore Edition",
+        price: 1250,
+        description: "Un encantador vestido corto en un profundo azul índigo con un lavado que recuerda a la mezclilla ligera. Presenta un diseño detallado con encaje en el escote, tirantes con volantes y un panel frontal de botones. La espalda cuenta con un nido de abeja (smock) elástico que garantiza un ajuste perfecto y cómodo a la silueta.",
         category: "Ropa de Mujer",
-        subcategory: "android",
-        stock: 20,
+        subcategory: "vestidos",
+        stock: 15,
         images: [
-            "../src/assets/samsung-1.jpg",
-            "../src/assets/samsung-2.jpg",
-            "../src/assets/samsung-3.jpg",
-            "../src/assets/samsung-4.jpg"
+            "../src/assets/vestido-1.jpg",
+            "../src/assets/vestido-2.jpg",
+            "../src/assets/vestido-3.jpg",
+            "../src/assets/vestido-4.jpg"
         ],
-        slug: "samsung-galaxy-s24-ultra",
+        slug: "vestido-lace-indigo-cottagecore",
         badge: "AI Ready",
+        discount: 10, 
         specs: [
-            { label: "Camera", value: "200MP" },
-            { label: "Zoom", value: "100x" },
-            { label: "Pen", value: "Included" }
+            { label: "Material", value: "100% Rayón de alta calidad con acabado tipo lino, fresco y con caída" },
+            { label: "Corte", value: "Corte en 'A' con falda de un solo tiempo y volantes"},
+            { label: "Escote", value: "Cuello tipo 'V' adornado con encaje floral delicado" },
+            { label: "Tirantes", value: "Tirantes anchos con terminación de mini volantes elásticos" }
         ]
     },
     {
         id: "10",
-        name: "Google Pixel 8 Pro",
-        title: "Google Pixel 8 Pro",
-        price: 999,
-        description: "The all-pro phone engineered by Google. It has a polished aluminum frame and matte back glass, and it comes in elegant colors.",
+        name: "Vestido 'Antique Red' - Lace Trimmed Blouse",
+        title: "Vestido 'Antique Red' - Lace Trimmed Blouse",
+        price: 580,
+        description: "Un vestido delicado en un suave tono rojo antiguo con textura de mini-pliegues. Presenta un escote en \"V\" pronunciado. Es una prenda ligera, con una espalda elástica que permite un ajuste cómodo y ceñido al torso",
         category: "Ropa de Mujer",
-        subcategory: "android",
-        stock: 15,
+        subcategory: "vestidos",
+        stock: 22,
         images: [
-            "https://lh3.googleusercontent.com/22AC6Qcb5-4qN6QJTkBzGK2N5kS5AZyuss9AcAQzAuxjHqGz3VfI5-MSXsKDzuUuePoqHAmyAFyewt9CdNyw3oQikUDY7dTSmyDsVPo=rw-e365-w842-v1",
-            "https://tecnopolis.com.bo/cdn/shop/files/8-PRO.png?v=1763581431"
+            "../src/assets/vestido-rojo-1.jpg",
+            "../src/assets/vestido-rojo-2.jpg",
+            "../src/assets/vestido-rojo-3.jpg",
+            "../src/assets/vestido-rojo-4.jpg"
         ],
-        slug: "google-pixel-8-pro",
+        slug: "vestido-antique-red-lace-trimmed-blouse",
         badge: "Smartest",
+        discount: 15,
         specs: [
-            { label: "Chip", value: "Tensor G3" },
-            { label: "OS", value: "Android 14" },
-            { label: "AI", value: "Gemini Nano" }
+            { label: "Material", value: "Mezcla de algodón y lino suave, altamente transpirable" },
+            { label: "Corte", value: "Crop (corto) con terminación de encaje en el bajo" },
+            { label: "Escote", value: "Cuello en \"V\"" },
+            { label: "Tirantes", value: "Finos y ajustables (tipo espagueti) para un look más limpio" }
         ]
     },
     {
         id: "11",
-        name: "iPhone 14",
-        title: "iPhone 14",
+        name: "Camiseta 'Papillon Noi' - Vintage Graphic Tee",
+        title: "Camiseta 'Papillon Noi' - Vintage Graphic Tee",
         price: 699,
         description: "A total powerhouse. Impressive battery life, durable build, and a camera system that takes stunning photos in any light.",
         category: "Ropa de Mujer",
-        subcategory: "iphone",
-        stock: 30,
+        subcategory: "tops",
+        stock: 28,
         images: [
-            "https://images.unsplash.com/photo-1678652197831-2d180705cd2c?auto=format&fit=crop&w=800&q=80",
+            "../src/assets/camiseta-1.jpg",
+            "../src/assets/camiseta-2.jpg",
+            "../src/assets/camiseta-3.jpg",
+            "../src/assets/camiseta-4.jpg"
         ],
-        slug: "iphone-14",
+        slug: "camiseta-papillon-noi",
+        discount: 5,
         specs: [
-            { label: "Chip", value: "A15 Bionic" },
-            { label: "Screen", value: "6.1 Super Retina" },
-            { label: "Safety", value: "Crash Detection" }
+            { label: "Material", value: "100% Algodón orgánico de peso medio, suave al tacto y duradero." },
+            { label: "Corte", value: "Regular Fit con cuello redondo acanalado" },
+            { label: "Costuras", value: "Doble costura en dobladillo y mangas para evitar deformaciones" },
+            { label: "Etiqueta", value: "Estampada en el cuello para evitar irritaciones en la piel" }
         ]
     },
     {
@@ -562,6 +575,99 @@ export const products: Product[] = [
             { label: "Color", value: "Taupe / Beige" },
             { label: "Estilo", value: "Festival / Boho-Chic / Avant-Garde" },
             { label: "Talla", value: "42-44" }
+        ]
+    },
+    {
+        id: "26",
+        name: "Falda Midi Blanca Plisada Casual",
+        title: "Falda Midi Blanca Plisada Casual",
+        price: 890,
+        description: "Falda midi blanca de estilo fluido y elegante, ideal para outfits casuales, frescos y femeninos. Su diseño plisado y tela ligera la hacen perfecta para clima cálido o combinaciones minimalistas.",
+        category: "Ropa de Mujer",
+        subcategory: "faldas",
+        stock: 18,
+        images: [
+            "../src/assets/falda-1.jpg",
+            "../src/assets/falda-2.jpg",
+            "../src/assets/falda-3.jpg",
+            "../src/assets/falda-4.jpg"
+        ],
+        slug: "falda-midi-blanca-plisada-casual",
+        discount: 15,
+        specs: [
+            { label: "Material", value: "Mezcla de algodón y poliéster" },
+            { label: "Corte", value: "Suelto / fluido" },
+            { label: "Cintura", value: "Elástica alta" },
+            { label: "Textura", value: "Ligera y plisada" }
+        ]
+    },
+    {
+        id: "27",
+        name: "Falda Mini de Tiro Bajo - Estampado Polka Dot",
+        title: "Falda Mini de Tiro Bajo - Estampado Polka Dot",
+        price: 890,
+        description: "Una pieza clásica con un toque moderno. Esta falda mini presenta un corte estructurado y un estampado de lunares blancos sobre fondo negro, ideal para un look casual de verano o una salida nocturna con estilo retro",
+        category: "Ropa de Mujer",
+        subcategory: "faldas",
+        stock: 24,
+        images: [
+            "../src/assets/falda-negra-1.jpg",
+            "../src/assets/falda-negra-2.jpg",
+            "../src/assets/falda-negra-3.jpg",
+            "../src/assets/falda-negra-4.jpg"
+        ],
+        slug: "falda-mini-de-tiro-bajo---estampado-polka-dot",
+        specs: [
+            { label: "Material", value: "95% Poliéster, 5% Elastano (Tela con ligero estiramiento)" },
+            { label: "Corte", value: "Mini (por encima de la rodilla) con silueta tipo A" },
+            { label: "Cierre", value: "Cremallera lateral invisible" },
+            { label: "Cuidado", value: "Lavar a máquina con agua fría; no usar blanqueador" }
+        ]
+    },
+    {
+        id: "28",
+        name: "Falda Mini 'Icy Blue' de Lentejuelas",
+        title: "Falda Mini 'Icy Blue' de Lentejuelas",
+        price: 890,
+        description: "Una deslumbrante falda mini cubierta de lentejuelas color azul hielo. Su tejido elástico y silueta ajustada la convierten en la pieza perfecta para cualquier celebración o noche especial. Completamente forrada para mayor comodidad",
+        category: "Ropa de Mujer",
+        subcategory: "faldas",
+        stock: 45,
+        images: [
+            "../src/assets/falda-azul-1.jpg",
+            "../src/assets/falda-azul-2.jpg",
+            "../src/assets/falda-azul-3.jpg",
+            "../src/assets/falda-azul-4.jpg"
+        ],
+        slug: "falda-mini-icy-blue-de-lentejuelas",
+        specs: [
+            { label: "Material", value: "Poliéster con acabado en lentejuelas" },
+            { label: "Corte", value: "Mini, silueta en A" },
+            { label: "Cintura", value: "Elástica para un mejor ajuste" },
+            { label: "Cuidado", value: "Solo lavado a mano para proteger los detalles" }
+        ]
+    },
+    {
+        id: "29",
+        name: "Top de Bikini Triangular con Cordones - Estampado Camuflaje",
+        title: "Top de Bikini Triangular con Cordones - Estampado Camuflaje",
+        price: 490,
+        description: "Un diseño audaz que combina la estética urbana del camuflaje con detalles de cordones entrelazados en las copas. Este top triangular ofrece un ajuste personalizado gracias a sus tirantes finos para anudar al cuello y a la espalda, perfecto para destacar en la playa o piscina.",
+        category: "Ropa de Mujer",
+        subcategory: "bikinis",
+        stock: 35,
+        images: [
+            "../src/assets/bikini-2-1.jpg",
+            "../src/assets/bikini-2-2.jpg",
+            "../src/assets/bikini-2-3.jpg",
+            "../src/assets/bikini-2-4.jpg"
+        ],
+        slug: "top-de-bikini-triangular-con-cordones---estampado-camuflaje",
+        specs: [
+            { label: "Material", value: "82% Nylon, 18% Elastano (Tela de secado rápido)" },
+            { label: "Ajuste", value: "Lazos ajustables en cuello y espalda" },
+            { label: "Forro", value: "Doble forro interior para evitar transparencias" },
+            { label: "Cuidado", value: "Lavar a mano con jabón suave después de cada uso; secar a la sombra" }
         ]
     },
 ];
